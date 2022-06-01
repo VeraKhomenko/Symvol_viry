@@ -1,5 +1,5 @@
 // import value from "./js/a";
-import './sass/index.scss';
+// import './sass/index.scss';
 
 // const add = a + b;
 
