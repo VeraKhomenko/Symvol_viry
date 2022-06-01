@@ -75,7 +75,7 @@
 48D:\Symvol_viry\node_modules\terser\lib\output.js121436361000000000 0
 65D:\Symvol_viry\node_modules\svgo\lib\svgo\css-select-adapter.d.ts121436361000000000 0
 59D:\Symvol_viry\node_modules\@parcel\utils\src\getRootDir.js121436361000000000 0
-19D:\Symvol_viry\dist132985887083469686 1
+19D:\Symvol_viry\dist132985887083639699 1
 62D:\Symvol_viry\node_modules\@parcel\reporter-cli\src\render.js121436361000000000 0
 82D:\Symvol_viry\node_modules\@parcel\core\test\fixtures\common-targets\package.json121436361000000000 0
 63D:\Symvol_viry\node_modules\type-fest\source\literal-union.d.ts121436361000000000 0

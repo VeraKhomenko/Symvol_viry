@@ -5,7 +5,8 @@
   "homepage": "https://verakhomenko.github.io/symvol_viry",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /symvol_viry/"
+    "build": "parcel build src/*.html --public-url /symvol_viry/",
+	 "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
