@@ -1,0 +1,73 @@
+.extreme__button {
+  @include font-header(0.03em, 800, 20px, normal);
+  width: 200px;
+  height: 60px;
+  color: $button-accent-color;
+  background-color: $button-color;
+  border: 1px solid $button-accent-color;
+}
+.container-banner__button {
+  @include font-header(0.03em, 800, 20px, normal);
+  width: 270px;
+  height: 60px;
+  color: $opposite-text-color;
+  background-color: $button-color;
+  border: 1px solid $opposite-text-color;
+}
+.container-banner__button:hover,
+.container-banner__button:focus,
+.extreme__button:hover,
+.extreme__button:focus {
+  color: $opposite-text-color;
+  background-color: $button-accent-color;
+}
+.section__button {
+  @include font-size(normal, 800, 18px, normal);
+  width: 160px;
+  height: 60px;
+  color: $opposite-text-color;
+  background-color: $button-accent-color;
+  border: 1px solid $button-accent-color;
+}
+.section__button:hover,
+.section__button:focus {
+  color: $button-accent-color;
+  background-color: $button-color;
+}
+.section__link {
+  @include font-size(normal, 800, 18px, normal);
+  color: $button-accent-color;
+  background-color: $button-color;
+  border: $button-color;
+  border-bottom: 1px solid $button-accent-color;
+  padding-bottom: 2px;
+  letter-spacing: 0.1em;
+  transition: text-shadow 0.3s;
+}
+
+.section__link:hover,
+.section__link:focus {
+  text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+  color: $accent-color;
+  border-bottom: 3px solid $accent-color;
+  padding-bottom: 2px;
+}
+
+.cheveron__button {
+  width: auto;
+  background-color: $button-color;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cheveron__icon:hover,
+.cheveron__icon:focus {
+  fill: $accent-color;
+}
+
+.cheveron__buttonright {
+  width: auto;
+  background-color: $button-color;
+  border: none;
+  display: grid;
+}

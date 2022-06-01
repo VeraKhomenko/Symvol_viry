@@ -1,0 +1,68 @@
+@mixin flex($justify: space-between, $grow: 0.5, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  flex-grow: $grow;
+  align-items: $align;
+}
+
+//   @include flex();
+@mixin flex-center($justify: center, $direction: column, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+  align-items: $align;
+}
+// @mixin absolute($top: auto,
+// 	$right: auto,
+// 	$bottom: auto,
+// 	$left: auto,
+// 	$transf: translate(-50%, -50%)) {
+// 	position: absolute;
+// 	top: $top;
+// 	right: $right;
+// 	bottom: $bottom;
+// 	left: $left;
+// 	transform: $transf;
+// }
+
+// //    @include absolute(auto, auto, 0%, 50%, translate(-50%, 0%));
+
+@mixin font-size($ls: normal, $fw: 400, $fs: 14px, $lh: normal) {
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-style: normal;
+  letter-spacing: $ls;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+//  @include font-size(0.03em, 400, 14px, 1.142);
+
+@mixin font-header($ls: normal, $fw: 400, $fs: 13px, $lh: normal) {
+  font-family: 'Mulish', 'Verdana', 'Tahoma', sans-serif;
+  font-style: normal;
+  letter-spacing: $ls;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
+
+// @include font-header();
+@mixin bgimage($original_hero) {
+  $url: '/src/img/#{$original_hero}.jpg';
+  background: url($url);
+}
+// @include bgimage();
+// @mixin uppercase($m: auto auto auto auto) {
+// 	margin: $m;
+// 	text-transform: uppercase;
+// }
+
+// // @include uppercase ();
+
+// @mixin indent($m: auto auto auto auto, $p: auto auto auto auto) {
+// 	margin: $m;
+// 	padding: $p;
+// }
+
+// //  @include indent(0 auto 0 auto, $p: 0 15px 0 15px);

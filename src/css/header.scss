@@ -1,0 +1,46 @@
+.container .flexnav {
+  @include flex();
+  gap: 2%;
+  height: 140px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.main-menu {
+  @include flex();
+
+  &__focused {
+    color: $text-header-color;
+    display: inline-flex;
+    letter-spacing: 0.5px;
+    transition: text-shadow 0.3s;
+  }
+
+  &__focused:hover,
+  &__focused:focus {
+    text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+    color: $accent-color;
+    border-bottom: 1px solid $accent-color;
+    padding-bottom: 2px;
+  }
+}
+
+.soclinks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  text-align: center;
+}
+
+.soclink__icon:hover,
+.soclink__icon:focus {
+  fill: $accent-color;
+}
+.text-bold {
+  @include font-header(0.03em, 800, 16px, normal);
+}
+
+.leng {
+  text-align: center;
+}
