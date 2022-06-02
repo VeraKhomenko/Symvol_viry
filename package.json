@@ -2,7 +2,7 @@
   "name": "symvol_viry",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
+
   "homepage": "https://verakhomenko.github.io/symvol_viry",
   "scripts": {
     "start": "parcel src/*.html",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/verakhomenko.github.io/symvol_viry.git"
+    "url": "git+https://github.com/verakhomenko.github/symvol_viry.git"
   },
   "keywords": [],
   "author": "Vera Khomenko <pochtavkh@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/verakhomenko.github.io/symvol_viry/issues"
+    "url": "https://github.com/verakhomenko.github/symvol_viry/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
