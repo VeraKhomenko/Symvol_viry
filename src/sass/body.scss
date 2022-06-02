@@ -31,12 +31,10 @@ hr {
 }
 .hero {
   height: 650px;
-  background: linear-gradient(
-    to top,
-    $secondary-background-color 75%,
-    $primary-background-color 25%
-  );
-  // background-color: (top, $primary-background-color 25%, $secondary-background-color 75%);
+  background: linear-gradient($primary-background-color 25%, 0%,  $secondary-background-color 25%);
+  // background-color: (    to top,
+	   //   $secondary-background-color 75%,
+		//   $primary-background-color 25%);
 }
 .container-banner {
   @include flex-center();
