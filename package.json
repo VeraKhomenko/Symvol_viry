@@ -2,6 +2,7 @@
   "name": "symvol_viry",
   "version": "2.0.0",
   "description": "",
+  "main": "index.js",
   "homepage": "https://verakhomenko.github.io/symvol_viry",
   "scripts": {
     "start": "parcel src/*.html",
