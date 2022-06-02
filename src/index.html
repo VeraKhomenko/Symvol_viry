@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@400;800;1000&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Mulish:wght@400;800;1000&family=Roboto:wght@400;700&display=fallback"
       rel="stylesheet"
     />
     <!-- font-family: 'Mulish', sans-serif;
@@ -157,7 +157,10 @@ font-family: 'Anton', sans-serif; -->
     <main class="main-content">
       <section class="hero">
         <div class="container-banner">
-          <h1 class="container-banner__title text-uppercase">ukraine</h1>
+          <div class="clipped">
+            <h1 class="container-banner__title text-uppercase">ukraine</h1>
+          </div>
+
           <h2 class="container-banner__subtitle">
             Допомогаємо там, де це найбільше потрібно
           </h2>
@@ -448,7 +451,7 @@ font-family: 'Anton', sans-serif; -->
           </div>
         </div>
       </section>
-      <section class="container-hero">
+      <section class="container-hero section-found__img">
         <div class="sectionaccent">
           <div class="section__chapter">
             <h2 class="container-subtitle text-uppercase">ПРО ФОНД</h2>
@@ -693,10 +696,11 @@ font-family: 'Anton', sans-serif; -->
           </div>
         </div>
       </section>
-      <section class="container">
+      <section class="container section-question__img">
         <div class="section">
           <h2 class="container-subtitle text-uppercase">ПОШИРЕНІ ЗАПИТАННЯ</h2>
           <ul class="section-question">
+			
             <li class="section-question__item">
               Чи можу я пожертвувати кошти готівкою?
               <button
@@ -754,7 +758,16 @@ font-family: 'Anton', sans-serif; -->
               </button>
             </li>
           </ul>
+			 <!-- <div  class="section-question__img">
+				 <svg height="602" width="583">
+			<use
+			  href="../src/images/Symvol_Viry_logo_EN_main_without_descriptor_1.png"
+			></use>
+		 </svg>  -->
+			 </div>
+		
         </div>
+
       </section>
       <section class="container">
         <div class="section-social">

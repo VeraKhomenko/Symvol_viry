@@ -15,6 +15,7 @@ body {
   border-bottom: 1px solid $thin-line-color;
 }
 .container {
+	position: relative;
   // @include indent(0 auto 0 auto, $p: 0 15px 0 15px);
   width: auto;
   margin: 60px auto;
@@ -26,15 +27,31 @@ body {
   width: auto;
   background-color: $secondary-background-color;
 }
+.section-found__img {
+	background-image: url(../images/Symvol_Viry_logo_UA_bw2_without_descriptor_2.png);
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+
+}
 hr {
   color: $thin-line-color;
 }
 .hero {
   height: 650px;
   background: linear-gradient($primary-background-color 25%, 0%,  $secondary-background-color 25%);
-  // background-color: (    to top,
-	   //   $secondary-background-color 75%,
-		//   $primary-background-color 25%);
+}
+.clipped {
+	background-image: url(../images/original_hero.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+
+	/* -webkit-background-clip обрезает фон элемента по контуру текста */
+	-webkit-text-fill-color: transparent; /* переопределяет цвет текста с белого на прозрачный в браузерах на webkit */
+	-webkit-background-clip: text;
 }
 .container-banner {
   @include flex-center();
@@ -48,7 +65,10 @@ hr {
     font-size: 300px;
     line-height: normal;
     margin-top: -55px;
-    color: yellow;
+    color: white;
+	// color: $button-color;
+	// mask-image: image(url(../images/original_hero.jpg), skyblue), linear-gradient(rgba(0, 0, 0, 1.0), transparent);
+	
   }
   &__subtitle {
     @include font-header(normal, 1000, 62px, 1);
@@ -68,6 +88,7 @@ hr {
   }
 }
 .section {
+	position: relative;
   @include font-size(normal, 400, 30px, normal);
   margin-left: 8%;
   margin-right: 8%;
@@ -194,6 +215,7 @@ hr {
       border-bottom: 2px solid $title-text-color;
     }
   }
+
   &-question {
     display: flex;
     flex-direction: column;
@@ -209,6 +231,13 @@ hr {
       color: $button-accent-color;
       fill: $button-accent-color;
     }
+	 &__img {
+		background-image: url(../images/Symvol_Viry_logo_EN_main_without_descriptor_1.png);
+		background-size: contain;
+		background-position: 100% 100%;
+		background-repeat: no-repeat;
+		// text-align: center;
+		  }
   }
   &-social {
     // color: #ffffff;
