@@ -22,6 +22,7 @@
     color: $accent-color;
     border-bottom: 1px solid $accent-color;
     padding-bottom: 2px;
+    transition-duration: 1s;
   }
 }
 
@@ -36,6 +37,7 @@
 .soclink__icon:hover,
 .soclink__icon:focus {
   fill: $accent-color;
+  transition-duration: 1s;
 }
 .text-bold {
   @include font-header(0.03em, 800, 16px, normal);

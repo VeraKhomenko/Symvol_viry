@@ -20,6 +20,7 @@
 .extreme__button:focus {
   color: $opposite-text-color;
   background-color: $button-accent-color;
+  transition-duration: 1s;
 }
 .section__button {
   @include font-size(normal, 800, 18px, normal);
@@ -33,6 +34,7 @@
 .section__button:focus {
   color: $button-accent-color;
   background-color: $button-color;
+  transition-duration: 1s;
 }
 .section__link {
   @include font-size(normal, 800, 18px, normal);
@@ -51,6 +53,7 @@
   color: $accent-color;
   border-bottom: 3px solid $accent-color;
   padding-bottom: 2px;
+  transition-duration: 1s;
 }
 
 .cheveron__button {
@@ -63,6 +66,7 @@
 .cheveron__icon:hover,
 .cheveron__icon:focus {
   fill: $accent-color;
+  transition-duration: 1s;
 }
 
 .cheveron__buttonright {

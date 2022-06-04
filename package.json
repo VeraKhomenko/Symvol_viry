@@ -2,12 +2,12 @@
   "name": "symvol_viry",
   "version": "2.0.0",
   "description": "",
-
   "homepage": "https://verakhomenko.github.io/symvol_viry",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /symvol_viry/",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "lint-staged": "prettier --write --ignore-unknown"
   },
   "repository": {
     "type": "git",
