@@ -12,6 +12,22 @@
   flex-direction: $direction;
   align-items: $align;
 }
+@mixin grid-two-columns($column-gap: 10%, $row-gap: 10%) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: $column-gap;
+  grid-row-gap: $row-gap;
+}
+//   @include grid-two-columns();
+
+@mixin grid-three-columns($column-gap: 3%, $row-gap: 10%) {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: $column-gap;
+  grid-row-gap: $row-gap;
+}
+//   @include grid-three-columns();
+
 // @mixin absolute($top: auto,
 // 	$right: auto,
 // 	$bottom: auto,

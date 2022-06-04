@@ -3,6 +3,7 @@ $primary-text-color: #000000;
 $primary-background-color: #ffffff;
 $opposite-text-color: #ffffff;
 $secondary-background-color: #058ed0;
+$third-background: #e5e5e5;
 $accent-color: #058ed0;
 $accent-translucent-color: rgba(5, 142, 208, 0.3);
 $button-color: rgba(0, 0, 0, 0);
@@ -13,6 +14,8 @@ $thin-line-color: #e9e9e9;
 $text-header-color: #5c5555;
 $rectangle-background-color: #f2f2f2;
 $lightest-text-color: #444444;
+$time-function: cubic-bezier(0.4, 0, 0.2, 1);
+$time: 250ms;
 
 //   $background-footer-color: #2f303a;
 //   $color-studio: #000;

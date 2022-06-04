@@ -1,0 +1,27 @@
+.section-found__symvol {
+  color: $primary-text-color;
+  background-color: $third-background;
+  background-image: url(../images/Symvol_Viry_logo_UA_main_without_descriptor_1.png),
+    url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png),
+    url(../images/Symvol_Viry_logo_EN_bw1_without_descriptor_1.png);
+  background-size: auto;
+  background-position: 0 175px, 10% 175px, 28% 175px;
+  background-repeat: no-repeat;
+  height: 725px;
+}
+.section-found {
+  @include grid-two-columns();
+
+  margin-left: 8%;
+  margin-right: 8%;
+  color: $title-text-color;
+
+  &__text {
+    padding-top: 2em;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+.section-found__chapter {
+  margin-top: 30%;
+}
