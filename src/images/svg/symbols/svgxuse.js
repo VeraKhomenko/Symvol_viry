@@ -37,7 +37,7 @@
             window.removeEventListener(
               'orientationchange',
               debouncedCheck,
-              false,
+              false
             );
           } catch (ignore) {}
         };
@@ -45,19 +45,19 @@
         document.documentElement.addEventListener(
           'DOMSubtreeModified',
           debouncedCheck,
-          false,
+          false
         );
         unobserveChanges = function () {
           document.documentElement.removeEventListener(
             'DOMSubtreeModified',
             debouncedCheck,
-            false,
+            false
           );
           window.removeEventListener('resize', debouncedCheck, false);
           window.removeEventListener(
             'orientationchange',
             debouncedCheck,
-            false,
+            false
           );
         };
       }
@@ -207,7 +207,7 @@
                   base: base,
                   hash: hash,
                 }),
-                0,
+                0
               );
             }
             if (xhr === undefined) {
@@ -243,7 +243,7 @@
                 base: base,
                 hash: hash,
               }),
-              0,
+              0
             );
           }
         }
