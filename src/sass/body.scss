@@ -2,11 +2,18 @@ $background_img: url('../svg/logo/Symvol_Viry_logo_UA_bw2_without_descriptor_1.s
 body {
   @include font-size();
   background: $primary-background-color;
-  color: $primary-text-color;
+  color: $light-text-color;
 }
 .text-uppercase {
   text-transform: uppercase;
 }
+.title-text-color {
+	color: $title-text-color;
+}
+.opposite-text-color {
+	color: $opposite-text-color;
+}
+
 .extreme {
   height: 140px;
   padding: 0;
@@ -74,13 +81,13 @@ hr {
   }
   &__subtitle {
     @include font-header(normal, 1000, 62px, 1);
-    color: $opposite-text-color;
+   //  color: $opposite-text-color;
     margin: -60px 30px 20px;
     text-align: center;
   }
   &__text {
     @include font-header(normal, 400, 24px, normal);
-    color: $opposite-text-color;
+   //  color: $opposite-text-color;
     margin-bottom: 30px;
   }
   &__buttons {
@@ -94,7 +101,7 @@ hr {
   @include font-size(normal, 400, 30px, normal);
   margin-left: 8%;
   margin-right: 8%;
-  color: $title-text-color;
+//   color: $title-text-color;
 
   &__list {
     @include grid-two-columns();
@@ -112,10 +119,10 @@ hr {
     border-bottom: 1px solid $thin-line-color;
     padding-bottom: 50px;
   }
-  &__listproject {
+  &__bloklist {
     @include grid-three-columns(20px, 30px);
     text-align: center;
-    padding-top: 25px;
+    margin-top: 65px;
   }
   &__blok {
     display: flex;
@@ -127,10 +134,11 @@ hr {
     }
   }
   &__part {
-    display: flex;
+	@include flex();
+   //  display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   //  justify-content: space-between;
+   //  align-items: center;
     padding-left: 19px;
     padding-right: 19px;
   }
@@ -138,11 +146,11 @@ hr {
     @include font-size(normal, 400, 18px, normal);
     padding-top: 15px;
     padding-bottom: 15px;
-    color: $light-text-color;
+   //  color: $light-text-color;
   }
-  &__chapter .section__text {
-    color: $opposite-text-color;
-  }
+//   &__chapter .section__text {
+//     color: $opposite-text-color;
+//   }
   &__buttons {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -165,7 +173,7 @@ hr {
     }
   }
   &-news {
-    color: $opposite-text-color;
+   //  color: $opposite-text-color;
 
     margin-left: 10%;
     margin-right: 10%;
@@ -178,7 +186,7 @@ hr {
     &__blok {
       text-align: center;
       background-color: $opposite-text-color;
-      color: $light-text-color;
+      // color: $light-text-color;
       padding-bottom: 45px;
     }
     &__blok .img {
@@ -297,7 +305,7 @@ hr {
   @include grid-two-columns();
   margin-left: 10%;
   padding-bottom: 45px;
-  color: $opposite-text-color;
+//   color: $opposite-text-color;
 }
 .sectionaccent .section__text {
   font-size: 14px;

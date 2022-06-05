@@ -1,3 +1,13 @@
+.button-color {
+	color: $button-accent-color;
+	background-color: $button-color;
+	border: 1px solid $button-accent-color;
+}
+.button-accent-color {
+	color: $opposite-text-color;
+	background-color: $button-accent-color;
+	border: 1px solid $button-accent-color;
+}
 .extreme__button {
   @include font-header(0.03em, 800, 20px, normal);
   width: 200px;
@@ -10,12 +20,15 @@
   @include font-header(0.03em, 800, 20px, normal);
   width: 270px;
   height: 60px;
-  color: $opposite-text-color;
-  background-color: $button-color;
-  border: 1px solid $opposite-text-color;
+
 }
-.container-banner__button:hover,
-.container-banner__button:focus,
+.button-accent-color:hover,
+.button-accent-color:focus {
+	color: $button-accent-color;
+	background-color: $button-color;
+	border: 1px solid $button-accent-color;
+}
+
 .extreme__button:hover,
 .extreme__button:focus {
   color: $opposite-text-color;
@@ -26,9 +39,9 @@
   @include font-size(normal, 800, 18px, normal);
   width: 160px;
   height: 60px;
-  color: $opposite-text-color;
-  background-color: $button-accent-color;
-  border: 1px solid $button-accent-color;
+//   color: $opposite-text-color;
+//   background-color: $button-accent-color;
+//   border: 1px solid $button-accent-color;
 }
 .section__button:hover,
 .section__button:focus {
@@ -38,11 +51,11 @@
 }
 .section__link {
   @include font-size(normal, 800, 18px, normal);
-  color: $button-accent-color;
-  background-color: $button-color;
+//   color: $button-accent-color;
+//   background-color: $button-color;
+//   border-bottom: 1px solid $button-accent-color;
   border: $button-color;
-  border-bottom: 1px solid $button-accent-color;
-  padding-bottom: 2px;
+    padding-bottom: 2px;
   letter-spacing: 0.1em;
   transition: text-shadow 0.3s;
 }
