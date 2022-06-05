@@ -12,15 +12,11 @@
   @include font-header(0.03em, 800, 20px, normal);
   width: 200px;
   height: 60px;
-  color: $button-accent-color;
-  background-color: $button-color;
-  border: 1px solid $button-accent-color;
 }
 .container-banner__button {
   @include font-header(0.03em, 800, 20px, normal);
   width: 270px;
   height: 60px;
-
 }
 .button-accent-color:hover,
 .button-accent-color:focus {
@@ -39,23 +35,12 @@
   @include font-size(normal, 800, 18px, normal);
   width: 160px;
   height: 60px;
-//   color: $opposite-text-color;
-//   background-color: $button-accent-color;
-//   border: 1px solid $button-accent-color;
 }
-.section__button:hover,
-.section__button:focus {
-  color: $button-accent-color;
-  background-color: $button-color;
-  transition-duration: 1s;
-}
+
 .section__link {
   @include font-size(normal, 800, 18px, normal);
-//   color: $button-accent-color;
-//   background-color: $button-color;
-//   border-bottom: 1px solid $button-accent-color;
   border: $button-color;
-    padding-bottom: 2px;
+  padding-bottom: 2px;
   letter-spacing: 0.1em;
   transition: text-shadow 0.3s;
 }
