@@ -1,12 +1,12 @@
 .button-color {
-	color: $button-accent-color;
-	background-color: $button-color;
-	border: 1px solid $button-accent-color;
+  color: $button-accent-color;
+  background-color: $button-color;
+  border: 1px solid $button-accent-color;
 }
 .button-accent-color {
-	color: $opposite-text-color;
-	background-color: $button-accent-color;
-	border: 1px solid $button-accent-color;
+  color: $opposite-text-color;
+  background-color: $button-accent-color;
+  border: 1px solid $button-accent-color;
 }
 .extreme__button {
   @include font-header(0.03em, 800, 20px, normal);
@@ -20,9 +20,9 @@
 }
 .button-accent-color:hover,
 .button-accent-color:focus {
-	color: $button-accent-color;
-	background-color: $button-color;
-	border: 1px solid $button-accent-color;
+  color: $button-accent-color;
+  background-color: $button-color;
+  border: 1px solid $button-accent-color;
 }
 
 .extreme__button:hover,

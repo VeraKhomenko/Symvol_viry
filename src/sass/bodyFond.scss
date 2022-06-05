@@ -28,57 +28,56 @@
   margin-top: 30%;
 }
 .section-comand {
-	text-align: left;
-	padding-left: 30px;
-	padding-right: 30px;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .section-spacingtitle {
   @include font-size(3px, 400, 18px, 0.4);
   padding-top: 20px;
-    padding-bottom: 20px;
-	}
+  padding-bottom: 20px;
+}
 .section-spacingsubtitle {
-	@include font-size(normal, 800, 16px, 0.4);
-	letter-spacing: 1px;
-	padding-bottom: 20px;
+  @include font-size(normal, 800, 16px, 0.4);
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 .section-comand__text {
-	@include font-size(3.5px, 400, 16px, 1);
-
+  @include font-size(3.5px, 400, 16px, 1);
 }
 .section__blok .soclinks {
-	width: 50%;
-	margin: auto;
+  width: 50%;
+  margin: auto;
 }
 .sectson-twocolumn {
-	@include grid-two-columns();
-	margin-top: 64px;
-	padding-bottom: 90px;
+  @include grid-two-columns();
+  margin-top: 64px;
+  padding-bottom: 90px;
 }
 
 .img-story {
-	padding-top: 30px;
+  padding-top: 30px;
 }
 .img-story {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .section-doc__list {
-	@include flex();
-	padding-top: 80px;
-	padding-bottom: 130px;
+  @include flex();
+  padding-top: 80px;
+  padding-bottom: 130px;
 }
 .section-offer {
-	@include grid-two-columns();
-	justify-items: center;
-	align-items: center;
-	width: 80%;
-    margin-left: auto;
-    padding-top: 100px;
-	 padding-bottom: 100px;
+  @include grid-two-columns();
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .offer.section-found__img {
-	background-position: 0 100%;
-background-repeat: no-repeat;
-background-size: 20%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20%;
 }
