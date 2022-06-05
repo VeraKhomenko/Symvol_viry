@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Про фонд</title>
     <link rel="stylesheet" href="./sass/styles.scss" />
-    <script type="module" src="./index.js"></script>
+    <!-- <script type="module" src="./index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,18 +37,22 @@ font-family: 'Anton', sans-serif; -->
               <a href="#fond" class="main-menu__focused">Про фонд</a>
             </li>
             <li class="item text-uppercase">
-              <a href="#project" class="main-menu__focused"
+              <a href="./index.html#project" class="main-menu__focused"
                 >Проекти та програми</a
               >
             </li>
             <li class="item text-uppercase">
-              <a href="#accounting" class="main-menu__focused">Звітність</a>
+              <a href="./index.html#accounting" class="main-menu__focused"
+                >Звітність</a
+              >
             </li>
             <li class="item text-uppercase">
-              <a href="#news" class="main-menu__focused">Новини</a>
+              <a href="./index.html#news" class="main-menu__focused">Новини</a>
             </li>
             <li class="item text-uppercase">
-              <a href="#contact" class="main-menu__focused">Контакти</a>
+              <a href="./index.html#contact" class="main-menu__focused"
+                >Контакти</a
+              >
             </li>
           </ul>
           <button type="button" class="extreme__button" data-modal-open>
@@ -155,7 +159,7 @@ font-family: 'Anton', sans-serif; -->
     </header>
     <main class="main-content">
       <section id="fond" class="container-hero section-found__img">
-        <div class="sectionaccent">
+        <div class="sectionaccent opposite-text-color">
           <div class="section__chapter">
             <h2 class="container-subtitle text-uppercase">ПРО ФОНД</h2>
             <p class="section__text">
@@ -179,17 +183,10 @@ font-family: 'Anton', sans-serif; -->
             <div class="container-banner__buttons">
               <button
                 type="button"
-                class="container-banner__button"
+                class="container-banner__button button-accent-color"
                 data-modal-open
               >
                 Приєднатися
-              </button>
-              <button
-                type="button"
-                class="container-banner__button"
-                data-modal-open
-              >
-                Детальніше
               </button>
             </div>
           </div>
@@ -226,10 +223,12 @@ font-family: 'Anton', sans-serif; -->
           </div>
         </div>
       </section>
-      <section class="container section-found__symvol">
+      <section class="container-found section-found__symvol">
         <div class="section-found">
           <div class="section__chapter">
-            <h2 class="container-subtitle text-uppercase">МІСІЯ ТА ЦІННОСТІ</h2>
+            <h2 class="container-subtitle text-uppercase title-text-color">
+              МІСІЯ ТА ЦІННОСТІ
+            </h2>
           </div>
           <div class="section__chapter">
             <div class="section-found__chapter">
@@ -260,9 +259,11 @@ font-family: 'Anton', sans-serif; -->
           </div>
         </div>
       </section>
-      <section id="accounting" class="container">
+      <section class="container">
         <div class="section">
-          <h2 class="container-subtitle text-uppercase">МИ ВЖЕ ДОСЯГЛИ</h2>
+          <h2 class="container-subtitle text-uppercase title-text-color">
+            МИ ВЖЕ ДОСЯГЛИ
+          </h2>
           <table>
             <tr>
               <td class="achievement">
@@ -301,266 +302,508 @@ font-family: 'Anton', sans-serif; -->
       </section>
       <section class="container">
         <div class="section">
-          <h2 class="container-subtitle text-uppercase">НАШІ ПАРТНЕРИ</h2>
-          <ul class="section-partner">
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-            <li class="section-partner__carousel">
-              <img
-                src="../src/images/image_85.jpg"
-                alt="photo"
-                width="200"
-                height="80"
-                class="img"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="news" class="container-hero">
-        <div class="section-news">
-          <h2 class="container-subtitle text-uppercase">ОСТАННІ НОВИНИ</h2>
-          <div class="section-news__bloks">
-            <article class="section-news__blok">
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <header class="section-news__header">
-                <time>2022-05-12</time>
-                <h3>
-                  Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022
-                  року
-                </h3>
-              </header>
-              <div class="section-news__response">
-                <p>33 перегляда</p>
-                <p>44 коментара</p>
-              </div>
-              <footer class="section-news__footer">
-                <a href="#">Детальніше</a>
-              </footer>
-            </article>
-            <article class="section-news__blok">
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <header class="section-news__header">
-                <time>2022-05-12</time>
-                <h3>
-                  Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022
-                  року
-                </h3>
-              </header>
-              <div class="section-news__response">
-                <p>33 перегляда</p>
-                <p>44 коментара</p>
-              </div>
-              <footer class="section-news__footer">
-                <a href="#">Детальніше</a>
-              </footer>
-            </article>
-            <article class="section-news__blok">
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <header class="section-news__header">
-                <time>2022-05-12</time>
-                <h3>
-                  Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022
-                  року
-                </h3>
-              </header>
-              <div class="section-news__response">
-                <p>33 перегляда</p>
-                <p>44 коментара</p>
-              </div>
-              <footer class="section-news__footer">
-                <a href="#">Детальніше</a>
-              </footer>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="container section-question__img">
-        <div class="section">
-          <h2 class="container-subtitle text-uppercase">ПОШИРЕНІ ЗАПИТАННЯ</h2>
-          <ul class="section-question">
-            <li class="section-question__item">
-              Чи можу я пожертвувати кошти готівкою?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
-                <svg height="30" width="30">
-                  <use
-                    href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
-                  ></use>
-                </svg>
-              </button>
-            </li>
-            <li class="section-question__item">
-              Чи можу я доєднатися до фонду як волонтер?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
-                <svg height="30" width="30">
-                  <use
-                    href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
-                  ></use>
-                </svg>
-              </button>
-            </li>
-            <li class="section-question__item">
-              Чи може моя сім’я отримати допомогу від вашего фонду?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
-                <svg height="30" width="30">
-                  <use
-                    href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
-                  ></use>
-                </svg>
-              </button>
-            </li>
-            <li class="section-question__item">
-              Які речі краще надавати як гуманітарну допомогу?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
-                <svg height="30" width="30">
-                  <use
-                    href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
-                  ></use>
-                </svg>
-              </button>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="ontact" class="container">
-        <div class="section-social">
-          <h2 class="container-subtitle text-uppercase">
-            МИ В СОЦІАЛЬНИХ МЕРЕЖАХ
+          <h2 class="container-subtitle text-uppercase title-text-color">
+            КОМАНДА
           </h2>
-          <ul class="section-partner">
-            <li>
+          <div class="section__bloklist">
+            <div class="section__blok">
               <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
+                src="../src/images/image_54.jpg"
                 alt="photo"
-                width="320"
-                height="320"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__blok">
+              <img
+                src="../src/images/image_54.jpg"
+                alt="photo"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__blok">
+              <img
+                src="../src/images/image_54.jpg"
+                alt="photo"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__blok">
+              <img
+                src="../src/images/image_54.jpg"
+                alt="photo"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__blok">
+              <img
+                src="../src/images/image_54.jpg"
+                alt="photo"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="section__blok">
+              <img
+                src="../src/images/image_54.jpg"
+                alt="photo"
+                width="368"
+                class="img"
+              />
+              <div class="section-comand">
+                <h5 class="section-spacingtitle">Шарова Тетяна Олегівна</h5>
+                <h6 class="section-spacingsubtitle">засновниця</h6>
+                <p class="section-comand__text">
+                  Веде волонтерську роботу з 2014 року. Основний вид діяльності
+                  - юриспурденція. Відповідає за забеспечення гуманітарної
+                  допомоги та переселення біженців у Європу. Має
+                  чоловіка-військового та 2 дітей.
+                </p>
+              </div>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.facebook.com/"
+                      aria-label="Facebook"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href=" https://www.instagram.com/"
+                      aria-label="Instagram"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soclink__links">
+                    <a
+                      class="soclink__icon"
+                      href="https://www.linkedin.com/"
+                      aria-label="Linkedin"
+                    >
+                      <svg height="25" width="25">
+                        <use
+                          href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-hero section-found__img">
+        <div class="section opposite-text-color">
+          <h2 class="container-subtitle text-uppercase">ІСТОРІЯ СТВОРЕННЯ</h2>
+          <div class="sectson-twocolumn">
+            <div class="section__chapter">
+              <p class="section__text">
+                <b
+                  >Ми зосереджені на тих людях, що отримують найменшу допомогу
+                  від організацій чи на тих, хто знаходиться не в самому
+                  епіцентрі подій, але страждає на нестачу їжі, ліків та
+                  амуніції.</b
+                >
+              </p>
+              <p class="section__text">
+                Тисячі українців в маленьких містах чи селах відрізані від
+                продовольства, лікування та елементарних речей, що мають
+                забезпечувати достойне життя будь-якої людини.
+              </p>
+              <p class="section__text">
+                <strong>Місія фонду</strong> - прозора допомога українцям під
+                час війни в Україні. Ми шукаємо тих, хто найбільше потребує
+                допомоги та знаходимо шляхи забезпечення потреб людей в
+                найкоротші строки.
+              </p>
+              <p class="section__text">
+                <strong>Наші цінності</strong> це людяність, відношення до інших
+                як до сім’ї, піклування та захист людей, які на це потребують.
+              </p>
+              <img
+                src="../src/images/image_74.jpg"
+                alt="photo"
+                width="495"
+                class="img-story"
+              />
+            </div>
+            <div class="section__chapter">
+              <img
+                src="../src/images/image_74.jpg"
+                alt="photo"
+                width="495"
+                class="img-story"
+              />
+              <p class="section__text">
+                <b
+                  >Ми зосереджені на тих людях, що отримують найменшу допомогу
+                  від організацій чи на тих, хто знаходиться не в самому
+                  епіцентрі подій, але страждає на нестачу їжі, ліків та
+                  амуніції.</b
+                >
+              </p>
+              <p class="section__text">
+                Тисячі українців в маленьких містах чи селах відрізані від
+                продовольства, лікування та елементарних речей, що мають
+                забезпечувати достойне життя будь-якої людини.
+              </p>
+              <p class="section__text">
+                <strong>Місія фонду</strong> - прозора допомога українцям під
+                час війни в Україні. Ми шукаємо тих, хто найбільше потребує
+                допомоги та знаходимо шляхи забезпечення потреб людей в
+                найкоротші строки.
+              </p>
+
+              <p class="section__text">
+                <strong>Наші цінності</strong> це людяність, відношення до інших
+                як до сім’ї, піклування та захист людей, які на це потребують.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="section">
+          <h2 class="container-subtitle text-uppercase">ДОКУМЕНТИ</h2>
+          <ul class="section-doc__list">
+            <li class="section-doc__item">
+              <img
+                src="../src/images/image_91.jpg"
+                alt="photo"
+                width="272"
+                height="384"
                 class="img"
               />
             </li>
-            <li>
+            <li class="section-doc__item">
               <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
+                src="../src/images/image_91.jpg"
                 alt="photo"
-                width="320"
-                height="320"
+                width="272"
+                height="384"
                 class="img"
               />
             </li>
-            <li>
+            <li class="section-doc__item">
               <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
+                src="../src/images/image_91.jpg"
                 alt="photo"
-                width="320"
-                height="320"
+                width="272"
+                height="384"
                 class="img"
               />
             </li>
-            <li>
+            <li class="section-doc__item">
               <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
+                src="../src/images/image_91.jpg"
                 alt="photo"
-                width="320"
-                height="320"
-                class="img"
-              />
-            </li>
-            <li>
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="320"
-                height="320"
+                width="272"
+                height="384"
                 class="img"
               />
             </li>
           </ul>
-          <div class="link">
-            <!-- <div class="section__item"> -->
-            <h6 class="link-text">Більше</h6>
-            <button type="button" class="cheveron__buttonright" data-modal-open>
-              <svg height="25" width="25">
-                <use
-                  href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
-                ></use>
-              </svg>
-            </button>
-            <!-- </div> -->
+        </div>
+      </section>
+      <section class="container-hero offer section-found__img">
+        <div class="section-offer opposite-text-color">
+          <div class="section__chapter">
+            <h2 class="container-subtitle text-uppercase">
+              ГОТОВІ ПРИЄДНАТИСЯ ДО СІМ’Ї ФОНДУ?
+            </h2>
           </div>
-          <!-- <a href="#" class="logo__symvolviry">Більше</a> -->
+          <div class="section__chapter">
+            <button
+              type="button"
+              class="container-banner__button button-accent-color"
+              data-modal-open
+            >
+              Приєднатися
+            </button>
+          </div>
         </div>
       </section>
     </main>
