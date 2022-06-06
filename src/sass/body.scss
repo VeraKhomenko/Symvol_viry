@@ -296,6 +296,9 @@ hr {
     @include font-size(normal, 800, 18px, normal);
   }
 }
+.link-project {
+	justify-content: center;
+}
 .link:hover,
 .link:focus-within {
   color: $button-accent-color;
