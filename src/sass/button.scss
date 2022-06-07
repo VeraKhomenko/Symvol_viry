@@ -9,12 +9,14 @@
   border: 1px solid $button-accent-color;
 }
 .extreme__button {
-  @include font-header(0.03em, 800, 20px, normal);
-  width: 200px;
+  @include font-header(0.03em, 800, normal);
+  @include adaptiv-font(20, 10);
+  max-width: 200px;
   height: 60px;
 }
 .container-banner__button {
-  @include font-header(0.03em, 800, 20px, normal);
+  @include font-header(0.03em, 800, normal);
+  @include adaptiv-font(20, 14);
   width: 270px;
   height: 60px;
 }
@@ -32,13 +34,15 @@
   transition-duration: 1s;
 }
 .section__button {
-  @include font-size(normal, 800, 18px, normal);
+  @include font-size(normal, 800, normal);
+  @include adaptiv-font(18, 12);
   width: 160px;
   height: 60px;
 }
 
 .section__link {
-  @include font-size(normal, 800, 18px, normal);
+  @include font-size(normal, 800, normal);
+  @include adaptiv-font(18, 12);
   border: $button-color;
   padding-bottom: 2px;
   letter-spacing: 0.1em;
@@ -68,8 +72,16 @@
 }
 
 .cheveron__buttonright {
-  width: auto;
+  display: flex;
+  //   width: auto;
   background-color: $button-color;
   border: none;
-  display: grid;
 }
+button.title-text-color:hover {
+  color: $button-accent-color;
+  fill: $button-accent-color;
+}
+// .cheveron__buttonright :hover {
+//   color: $button-accent-color;
+
+// }

@@ -1,6 +1,7 @@
 $background_img: url('../svg/logo/Symvol_Viry_logo_UA_bw2_without_descriptor_1.svg');
 body {
   @include font-size();
+  @include adaptiv-font(16, 10);
   background: $primary-background-color;
   color: $light-text-color;
 }
@@ -15,16 +16,19 @@ body {
 }
 
 .extreme {
+  @include font-header();
+  @include adaptiv-font(13, 4);
+  max-width: 1440px;
   height: 140px;
   padding: 0;
-  margin: 0;
-  @include font-header();
+  margin: auto;
+
   border-bottom: 1px solid $thin-line-color;
 }
 .container {
   position: relative;
   // @include indent(0 auto 0 auto, $p: 0 15px 0 15px);
-  width: auto;
+  width: 84%;
   margin: 60px auto;
   &-top {
     margin: auto;
@@ -44,12 +48,13 @@ hr {
   color: $thin-line-color;
 }
 .hero {
-  height: 650px;
+  height: auto;
   background: linear-gradient(
     $primary-background-color 25%,
     0%,
     $secondary-background-color 25%
   );
+  padding-bottom: 50px;
 }
 .clipped {
   background-image: url(../images/original_hero.jpg);
@@ -65,28 +70,31 @@ hr {
 }
 .container-banner {
   @include flex-center();
-  width: 1200px;
+  //   width: 1200px;
   margin: auto;
   &__title {
+    @include adaptiv-font(350, 80);
     font-family: 'Anton', 'Verdana', 'Tahoma', sans-serif;
     font-style: normal;
     letter-spacing: normal;
     font-weight: 400;
-    font-size: 300px;
     line-height: normal;
     margin-top: -55px;
     color: white;
-    // color: $button-color;
-    // mask-image: image(url(../images/original_hero.jpg), skyblue), linear-gradient(rgba(0, 0, 0, 1.0), transparent);
+    @media (max-width: 767px) {
+      margin-top: -20px;
+    }
   }
   &__subtitle {
-    @include font-header(normal, 1000, 62px, 1);
-    //  color: $opposite-text-color;
+    @include font-header(normal, 1000, 1);
+    @include adaptiv-font(62, 18);
+    width: 60%;
     margin: -60px 30px 20px;
     text-align: center;
   }
   &__text {
-    @include font-header(normal, 400, 24px, normal);
+    @include font-header(normal, 400, normal);
+    @include adaptiv-font(24, 14);
     //  color: $opposite-text-color;
     margin-bottom: 30px;
   }
@@ -98,9 +106,10 @@ hr {
 }
 .section {
   position: relative;
-  @include font-size(normal, 400, 30px, normal);
-  margin-left: 8%;
-  margin-right: 8%;
+  @include font-size(normal, 400, normal);
+  @include adaptiv-font(30, 20);
+  //   margin-left: 8%;
+  //   margin-right: 8%;
   //   color: $title-text-color;
 
   &__list {
@@ -143,7 +152,8 @@ hr {
     padding-right: 19px;
   }
   &__text {
-    @include font-size(normal, 400, 18px, normal);
+    @include font-size(normal, 400, normal);
+    @include adaptiv-font(18, 12);
     padding-top: 15px;
     padding-bottom: 15px;
     //  color: $light-text-color;
@@ -194,25 +204,29 @@ hr {
     }
     &__header {
       // text-align: center;
-      @include font-size(normal, 800, 20px, normal);
+      @include font-size(normal, 800, normal);
+      @include adaptiv-font(20, 14);
       border-bottom: 1px solid $thin-line-color;
       padding-bottom: 16px;
       margin-left: 27px;
       margin-right: 27px;
       time {
-        @include font-size(normal, 400, 16px, normal);
+        @include font-size(normal, 400, normal);
+        @include adaptiv-font(16, 10);
         color: $lightest-text-color;
       }
     }
     &__response {
-      @include font-size(normal, 400, 16px, normal);
+      @include font-size(normal, 400, normal);
+      @include adaptiv-font(16, 10);
       display: flex;
       justify-content: space-between;
       margin: 9px 27px 47px;
       color: $lightest-text-color;
     }
     &__footer a {
-      @include font-size(normal, 800, 18px, normal);
+      @include font-size(normal, 800, normal);
+      @include adaptiv-font(18, 12);
       color: $title-text-color;
       border-bottom: 2px solid $title-text-color;
     }
@@ -275,29 +289,32 @@ hr {
   fill: $button-accent-color;
 }
 .container-subtitle {
-  @include font-size(normal, 800, 58px, normal);
+  @include font-size(normal, 800, normal);
+  @include adaptiv-font(58, 30);
   text-align: left;
   padding-top: 70px;
 }
 .accent {
-  @include font-size(normal, 800, 40px, normal);
+  @include font-size(normal, 800, normal);
+  @include adaptiv-font(40, 24);
   color: $accent-color;
 }
 .rect {
   background: $rectangle-background-color;
   height: 20px;
-  width: 300px;
+  width: 90%;
   z-index: -2;
 }
 .link {
   display: flex;
   align-items: center;
   &-text {
-    @include font-size(normal, 800, 18px, normal);
+    @include font-size(normal, 800, normal);
+    @include adaptiv-font(18, 12);
   }
 }
 .link-project {
-	justify-content: center;
+  justify-content: center;
 }
 .link:hover,
 .link:focus-within {
@@ -311,14 +328,16 @@ hr {
   //   color: $opposite-text-color;
 }
 .sectionaccent .section__text {
-  font-size: 14px;
+  @include adaptiv-font(14, 8);
   line-height: 2;
 }
 
 .achievement {
-  @include font-size(normal, 400, 58px, normal);
+  @include font-size(normal, 400, normal);
+  @include adaptiv-font(40, 30);
 }
 table {
+  width: 100%;
   margin-top: 40px;
 }
 td {
@@ -327,10 +346,10 @@ td {
   padding-bottom: 40px;
 }
 td .accent {
-  font-size: 70px;
+  @include adaptiv-font(70, 40);
 }
-td:nth-child(odd) {
-  padding-right: 100px;
+td:nth-child(even) {
+  padding-left: 10%;
 }
 footer.extreme {
   border-top: 1px solid $thin-line-color;

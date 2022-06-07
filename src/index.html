@@ -25,11 +25,12 @@ font-family: 'Anton', sans-serif; -->
         <nav class="flexnav">
           <p>
             <!-- src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg" -->
-            <a href="./index.html" class="logo__symvolviry"
+            <a href="./index.html"
               ><img
                 src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg"
                 alt="photo"
                 width="139"
+                class="logo__symvolviry"
             /></a>
           </p>
           <ul class="main-menu">
@@ -144,7 +145,6 @@ font-family: 'Anton', sans-serif; -->
             <button
               type="button"
               class="cheveron__button text-bold text-uppercase"
-              data-modal-open
             >
               ua
               <svg class="cheveron__icon" height="25" width="25">
@@ -181,7 +181,6 @@ font-family: 'Anton', sans-serif; -->
             <button
               type="button"
               class="container-banner__button button-accent-color"
-              data-modal-open
             >
               Отримати допомогу
             </button>
@@ -197,7 +196,7 @@ font-family: 'Anton', sans-serif; -->
               <button
                 type="button"
                 class="cheveron__buttonright"
-                data-modal-open
+                onclick="document.location='./projectMilitaryAssistance.html'"
               >
                 <svg height="80" width="80">
                   <use
@@ -208,11 +207,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section__item">
               Допомога у переселенні
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="80" width="80">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -222,11 +217,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section__item">
               Гуманітарна допомога
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="80" width="80">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -236,11 +227,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section__item">
               Дитячий будинок
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="80" width="80">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -250,11 +237,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section__item">
               Допомога дітям
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="80" width="80">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -264,11 +247,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section__item">
               Допомога лікарям та лікарням
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="80" width="80">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -309,11 +288,7 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
@@ -343,11 +318,7 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
@@ -376,11 +347,7 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
@@ -410,11 +377,7 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
@@ -444,11 +407,7 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
@@ -478,31 +437,30 @@ font-family: 'Anton', sans-serif; -->
                   >
                     Допомогти
                   </button>
-                  <button
-                    type="button"
-                    class="section__link button-color"
-                    data-modal-open
-                  >
+                  <button type="button" class="section__link button-color">
                     Детальніше
                   </button>
                 </div>
               </div>
             </li>
           </ul>
-          <div class="link">
-            <!-- <div class="section__item"> -->
-            <a href="./projects.html" class="link-text title-text-color"
-              >Всі проекти</a
-            >
-            <button type="button" class="cheveron__buttonright" data-modal-open>
-              <svg height="25" width="25">
-                <use
-                  href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
-                ></use>
-              </svg>
-            </button>
-            <!-- </div> -->
-          </div>
+          <!-- <div class="link"> -->
+          <!-- <a href="./projects.html" class="link-text title-text-color"
+              ></a
+            > -->
+          <button
+            type="button"
+            class="cheveron__buttonright link-text title-text-color"
+            onclick="document.location='./projects.html'"
+          >
+            Всі проекти
+            <svg height="25" width="25">
+              <use
+                href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
+              ></use>
+            </svg>
+          </button>
+          <!-- </div> -->
         </div>
       </section>
       <section id="fond" class="container-hero section-found__img">
@@ -531,7 +489,6 @@ font-family: 'Anton', sans-serif; -->
               <button
                 type="button"
                 class="container-banner__button button-accent-color"
-                data-modal-open
               >
                 Приєднатися
               </button>
@@ -762,11 +719,7 @@ font-family: 'Anton', sans-serif; -->
           <ul class="section-question">
             <li class="section-question__item">
               Чи можу я пожертвувати кошти готівкою?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="30" width="30">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
@@ -776,11 +729,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section-question__item">
               Чи можу я доєднатися до фонду як волонтер?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="30" width="30">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
@@ -790,11 +739,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section-question__item">
               Чи може моя сім’я отримати допомогу від вашего фонду?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="30" width="30">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
@@ -804,11 +749,7 @@ font-family: 'Anton', sans-serif; -->
             </li>
             <li class="section-question__item">
               Які речі краще надавати як гуманітарну допомогу?
-              <button
-                type="button"
-                class="cheveron__buttonright"
-                data-modal-open
-              >
+              <button type="button" class="cheveron__buttonright">
                 <svg height="30" width="30">
                   <use
                     href="../src/images/svg/symbols/symbol-defs.svg#icon-plus"
@@ -872,18 +813,15 @@ font-family: 'Anton', sans-serif; -->
             </li>
           </ul>
           <div class="link">
-            <!-- <div class="section__item"> -->
             <h6 class="link-text">Більше</h6>
-            <button type="button" class="cheveron__buttonright" data-modal-open>
+            <button type="button" class="cheveron__buttonright">
               <svg height="25" width="25">
                 <use
                   href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
                 ></use>
               </svg>
             </button>
-            <!-- </div> -->
           </div>
-          <!-- <a href="#" class="logo__symvolviry">Більше</a> -->
         </div>
       </section>
     </main>
@@ -1009,5 +947,98 @@ font-family: 'Anton', sans-serif; -->
         </nav>
       </div>
     </footer>
+    <!-- <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop__modal is-hidden__modal">
+        <div class="button-close">
+          <button
+            type="button"
+            class="button-close__icon-close"
+            data-modal-close
+          >
+            X -->
+    <!-- <svg height="11" width="11">
+              <use href="./images/sprite.svg#close"></use>
+            </svg> -->
+    <!-- </button>
+        </div> -->
+    <!-- форма -->
+    <!-- action - не используется, джс в помощь// action="#" method="post"-->
+    -
+    <!-- <span class="form-field__span">
+                <svg class="form-field__icon" width="12" height="12">
+                  <use href="./images/sprite.svg#man"></use>
+                </svg>
+              </span> -->
+    <!-- </div>
+
+            <label class="form__label" for="tel">Телефон</label>
+            <div class="form-field form-focus">
+              <input
+                class="form-field__content"
+                type="tel"
+                name="tel"
+                id="tel"
+                pattern="\+?[0-9\s\-\(\)]+"
+                required
+              /> -->
+    <!-- <span class="form-field__span">
+                <svg class="form-field__icon" width="13" height="13">
+                  <use href="./images/sprite.svg#receiver"></use>
+                </svg>
+              </span> -->
+    <!-- </div>
+
+            <label class="form__label" for="email">Почта</label>
+            <div class="form-field form-focus">
+              <input
+                class="form-field__content"
+                type="email"
+                name="email"
+                id="email"
+                required
+              /> -->
+    <!-- <span class="form-field__span">
+                <svg class="form-field__icon" width="15" height="12">
+                  <use href="./images/sprite.svg#email"></use>
+                </svg>
+              </span> -->
+    <!-- </div>
+
+            <div class="form-field form-focus">
+              <label class="form__label" for="comment">Комментарий</label>
+              <textarea
+                class="form-field__textarea"
+                name="comment"
+                id="comment"
+                rows="8"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form-policy">
+            <input
+              type="checkbox"
+              class="form-policy__custom-checkbox"
+              name="policy"
+              id="policy"
+              required
+            /> -->
+    <!-- .form-field input -->
+    <!-- <label class="form-policy__custom-checkbox-label" for="policy">
+              <span
+                >Соглашаюсь с рассылкой и принимаю&nbsp<a href="#"
+                  >Условия договора</a
+                ></span
+              >
+            </label>
+          </div>
+          <div class="button-send">
+            <button type="submit" class="button-send__button">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
