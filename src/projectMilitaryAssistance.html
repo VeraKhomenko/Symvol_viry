@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Про фонд</title>
+    <title>Допомога військовим</title>
     <link rel="stylesheet" href="./sass/styles.scss" />
     <!-- <script type="module" src="./index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,12 +34,12 @@ font-family: 'Anton', sans-serif; -->
           </p>
           <ul class="main-menu">
             <li class="text-uppercase">
-              <a href="./index.html#fond" class="main-menu__focused"
+              <a href="./fond.html" class="main-menu__focused"
                 >Про фонд</a
               >
             </li>
             <li class="text-uppercase">
-              <a href="./index.html#project" class="main-menu__focused"
+              <a href="./projects.html" class="main-menu__focused"
                 >Проекти та програми</a
               >
             </li>
@@ -60,7 +60,7 @@ font-family: 'Anton', sans-serif; -->
           <button
             type="button"
             class="extreme__button button-color"
-            data-modal-open
+            military-modal-open
           >
             Допомогти
           </button>
@@ -189,7 +189,7 @@ font-family: 'Anton', sans-serif; -->
               <button
                 type="button"
                 class="container-banner__button button-accent-color"
-                data-modal-open
+                military-modal-open-1
               >
                 Допомогти
               </button>
@@ -206,7 +206,7 @@ font-family: 'Anton', sans-serif; -->
               <div class="box1">
                 <div>
                   <img
-                    src="../src/images/IMG_3401_4.jpg"
+                    src="../src/images/IMG_8050.jpg"
                     alt="photo"
                     width="306"
                     class="img"
@@ -214,7 +214,7 @@ font-family: 'Anton', sans-serif; -->
                 </div>
                 <div class="box3">
                   <img
-                    src="../src/images/IMG_3534_4.jpg"
+                    src="../src/images/IMG_4548.jpg"
                     alt="photo"
                     width="277"
                     class="img"
@@ -224,7 +224,7 @@ font-family: 'Anton', sans-serif; -->
 
               <div class="box2">
                 <img
-                  src="../src/images/IMG_1738_4.jpg"
+                  src="../src/images/IMG_7979.jpg"
                   alt="photo"
                   width="336"
                   class="img"
@@ -260,7 +260,7 @@ font-family: 'Anton', sans-serif; -->
                   <button
                     type="button"
                     class="section__button button-accent-color"
-                    data-modal-open
+                    military-modal-open-2
                   >
                     Допомогти
                   </button>
@@ -454,10 +454,10 @@ font-family: 'Anton', sans-serif; -->
           </p>
           <ul class="main-menu">
             <li class="text-uppercase">
-              <a href="#fond" class="main-menu__focused">Про фонд</a>
+              <a href="./fond.html" class="main-menu__focused">Про фонд</a>
             </li>
             <li class="text-uppercase">
-              <a href="./index.html#project" class="main-menu__focused"
+              <a href="./projects.html" class="main-menu__focused"
                 >Проекти та програми</a
               >
             </li>
@@ -567,5 +567,99 @@ font-family: 'Anton', sans-serif; -->
         </nav>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal__button-close" data-modal-close>
+          X
+          <!-- <svg class="modal__icon-close" width="18" height="18">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg> -->
+        </button>
+        <h3 class="container-subtitle">Допомогти</h3>
+        <ol type="1">
+          <li class="modal-list">
+            <div>
+              <p class="modal-subtitle">Проект 5/12</p>
+              <p class="container-banner__text">
+                Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022 року
+              </p>
+            </div>
+          </li>
+          <li class="modal-list">
+            <div>
+              <p class="modal-subtitle">Оберіть спосіб допомоги</p>
+              <fieldset class="container-banner__text">
+                <div>
+                  <input
+                    type="radio"
+                    id="account"
+                    name="drone"
+                    value="account"
+                    checked
+                  />
+                  <label for="account">На рахунок</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="pay" name="drone" value="pay" />
+                  <label for="pay">Карта Pay Pal</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="crypto" name="drone" value="crypto" />
+                  <label for="crypto">Криптовалюта</label>
+                </div>
+              </fieldset>
+				  <h4 class="modal-title">Наші реквізити:</h4>
+				  <p class="container-banner__text">Розрахунковий рахунок:</p> 
+				  <p class="container-banner__text">UA5600000000000000000000000000</p>
+				  <p class="container-banner__text">Отримувач: ооооооооо</p> 
+				  <p class="container-banner__text">Назва: 000000000000</p>
+				  <p class="container-banner__text">ЕГРПОУ отримувача: 0000000</p>
+				  <p class="container-banner__text">Назначення: на проект 5/12</p>
+				  <p class="section__text">Нам дуже важливо дізнатися інформацію 
+					про наших благодійників:</p>
+            <form autocomplete="off" id="form-modal" class="form-modal">
+              <ul class="form-inputs">
+                <li class="form-inputs__item">
+                  <label class="form-inputs__field"
+                    >
+                    <input type="text" name="name" placeholder="ПІБ" class="form-inputs__label" /> 
+                  </label>
+                </li>
+                <li class="form-inputs__item">
+                  <label class="form-inputs__field"
+                    >
+                    <input
+                      type="tel"
+                      name="tell"
+                      autocomplete="tel"
+							 placeholder="Контактрий номер телефону"
+                      class="form-inputs__label"
+                    />
+         </label>
+                </li>
+                <li class="form-inputs__item">
+                  <label class="form-inputs__field"
+                    >
+                    <input
+                      type="email"
+                      name="email"
+                      autocomplete="email"
+							 placeholder="E-mail"
+                      class="form-inputs__label"
+                    /> 
+                </li>
+              </ul> 
+            </form>
+				<button type="submit" class="modal__button button-accent-color">
+					Надіслати
+				 </button>
+				</div>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -8,18 +8,19 @@
   background-color: $button-accent-color;
   border: 1px solid $button-accent-color;
 }
+button {
+	@include font-header(0.03em, 800, normal);
+	@include adaptiv-font(20, 10);
+	
+}
 .extreme__button {
-  @include font-header(0.03em, 800, normal);
-  @include adaptiv-font(20, 10);
   max-width: 200px;
   height: 60px;
-}
+ }
 .container-banner__button {
-  @include font-header(0.03em, 800, normal);
-  @include adaptiv-font(20, 14);
-  width: 270px;
-  height: 60px;
-}
+   width: 270px;
+	height: 60px;
+  }
 .button-accent-color:hover,
 .button-accent-color:focus {
   color: $button-accent-color;
@@ -34,14 +35,12 @@
   transition-duration: 1s;
 }
 .section__button {
-  @include font-size(normal, 800, normal);
   @include adaptiv-font(18, 12);
   width: 160px;
   height: 60px;
 }
 
 .section__link {
-  @include font-size(normal, 800, normal);
   @include adaptiv-font(18, 12);
   border: $button-color;
   padding-bottom: 2px;
@@ -85,3 +84,8 @@ button.title-text-color:hover {
 //   color: $button-accent-color;
 
 // }
+.modal__button {
+	width: 309px;
+	height: 60px;
+	margin-top: 40px;
+	}
