@@ -38,7 +38,7 @@ body {
   width: auto;
   background-color: $secondary-background-color;
 }
-.section-found__img {
+.section-fond__img {
   background-image: url(../images/Symvol_Viry_logo_UA_bw2_without_descriptor_2.png);
   background-size: contain;
   background-position: left;
@@ -73,13 +73,13 @@ hr {
   //   width: 1200px;
   margin: auto;
   &__title {
-    @include adaptiv-font(350, 80);
+    @include adaptiv-font(300, 140);
     font-family: 'Anton', 'Verdana', 'Tahoma', sans-serif;
     font-style: normal;
     letter-spacing: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: -55px;
+    margin-top: -0.141em;
     color: white;
     @media (max-width: 767px) {
       margin-top: -20px;
@@ -165,7 +165,9 @@ hr {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+ 
   &__chapter p:last-of-type {
+
     padding-bottom: 30px;
   }
   &__gallery {
@@ -178,8 +180,11 @@ hr {
     gap: 20px;
     &__carousel {
       border: 1px solid $thin-line-color;
-      padding: 20px;
+      padding: 2%;
       margin-right: 30px;
+		// @media (max-width: 767px) {
+		// 	padding: 10px;
+		// }
     }
   }
   &-news {
@@ -273,6 +278,7 @@ hr {
     padding-top: 30px;
   }
 }
+
 .box1 {
   display: flex;
   flex-grow: 2;
@@ -290,7 +296,7 @@ hr {
 }
 .container-subtitle {
   @include font-size(normal, 800, normal);
-  @include adaptiv-font(58, 30);
+  @include adaptiv-font(58, 24);
   text-align: left;
   padding-top: 70px;
 }
@@ -334,19 +340,20 @@ hr {
 
 .achievement {
   @include font-size(normal, 400, normal);
-  @include adaptiv-font(40, 30);
+  @include adaptiv-font(40, 20);
 }
 table {
   width: 100%;
   margin-top: 40px;
 }
 td {
+	width: 50%;
   border-bottom: 1px solid $thin-line-color;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 td .accent {
-  @include adaptiv-font(70, 40);
+  @include adaptiv-font(70, 20);
 }
 td:nth-child(even) {
   padding-left: 10%;

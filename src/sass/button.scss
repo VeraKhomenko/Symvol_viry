@@ -9,18 +9,17 @@
   border: 1px solid $button-accent-color;
 }
 button {
-	@include font-header(0.03em, 800, normal);
-	@include adaptiv-font(20, 10);
-	
+  @include font-header(0.03em, 800, normal);
+  @include adaptiv-font(20, 10);
 }
 .extreme__button {
   max-width: 200px;
   height: 60px;
- }
+}
 .container-banner__button {
-   width: 270px;
-	height: 60px;
-  }
+  width: 270px;
+  height: 60px;
+}
 .button-accent-color:hover,
 .button-accent-color:focus {
   color: $button-accent-color;
@@ -85,7 +84,7 @@ button.title-text-color:hover {
 
 // }
 .modal__button {
-	width: 309px;
-	height: 60px;
-	margin-top: 40px;
-	}
+  width: 309px;
+  height: 60px;
+  margin-top: 40px;
+}
