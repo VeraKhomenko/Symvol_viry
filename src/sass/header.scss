@@ -10,9 +10,8 @@
   //   padding-left: 8%;
   //   padding-right: 8%;
 }
-.logo__symvolviry,
-.soclink__links {
-  width: 100%;
+.logo__symvolviry {
+  width: 12em;
 }
 .main-menu {
   @include flex();

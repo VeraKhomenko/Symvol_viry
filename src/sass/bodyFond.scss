@@ -2,7 +2,7 @@
   width: auto;
 }
 .section-fond__symvol {
-    background-color: $third-background;
+  background-color: $third-background;
   background-image: url(../images/Symvol_Viry_logo_UA_main_without_descriptor_1.png),
     url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png),
     url(../images/Symvol_Viry_logo_EN_bw1_without_descriptor_2.png);
@@ -24,8 +24,8 @@
   }
 }
 .section-fond__chapter {
-	padding-left: 5%;
-	padding-bottom: 25%;
+  padding-left: 5%;
+  padding-bottom: 25%;
   margin-top: 30%;
 }
 .section-comand {
@@ -64,7 +64,7 @@
   padding-top: 30px;
 }
 .img-story {
-	width: 100%;
+  width: 100%;
   padding-bottom: 30px;
 }
 
@@ -79,8 +79,11 @@
   align-items: center;
   width: 80%;
   margin-left: auto;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
+  .container-banner__button {
+	  width: 238px;
+  }
 }
 .offer.section-fond__img {
   background-position: 0 100%;

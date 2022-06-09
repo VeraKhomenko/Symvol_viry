@@ -99,9 +99,13 @@ hr {
     margin-bottom: 30px;
   }
   &__buttons {
+	  width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 30px;
+  }
+  .container-banner__buttons {
+width: 40%;
   }
 }
 .section {
@@ -162,12 +166,12 @@ hr {
   //     color: $opposite-text-color;
   //   }
   &__buttons {
+	width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
   }
- 
-  &__chapter p:last-of-type {
 
+  &__chapter p:last-of-type {
     padding-bottom: 30px;
   }
   &__gallery {
@@ -182,9 +186,9 @@ hr {
       border: 1px solid $thin-line-color;
       padding: 2%;
       margin-right: 30px;
-		// @media (max-width: 767px) {
-		// 	padding: 10px;
-		// }
+      // @media (max-width: 767px) {
+      // 	padding: 10px;
+      // }
     }
   }
   &-news {
@@ -347,7 +351,7 @@ table {
   margin-top: 40px;
 }
 td {
-	width: 50%;
+  width: 50%;
   border-bottom: 1px solid $thin-line-color;
   padding-top: 40px;
   padding-bottom: 40px;
