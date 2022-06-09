@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Допомога військовим</title>
     <link rel="stylesheet" href="./sass/styles.scss" />
-    <!-- <script type="module" src="./index.js"></script> -->
+    <script type="module" src="./index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -158,10 +158,7 @@
       </div>
     </header>
     <main class="main-content">
-      <section
-        id="foprojectMilitaryAssistancend"
-        class="container-hero section-fond__img"
-      >
+      <section class="container-hero section-fond__img">
         <div class="sectionaccent opposite-text-color">
           <div class="section__chapter">
             <h2 class="container-subtitle text-uppercase">
@@ -176,24 +173,22 @@
             </p>
           </div>
           <div class="section__chapter">
-            <div class="section__gallery">
+            <div class="project-five section__gallery">
               <div class="box1">
-                <div>
-                  <img
-                    src="../src/images/IMG_8050.jpg"
-                    alt="photo"
-                    width="306"
-                    class="img"
-                  />
-                </div>
-                <div class="box3">
-                  <img
-                    src="../src/images/IMG_4548.jpg"
-                    alt="photo"
-                    width="277"
-                    class="img"
-                  />
-                </div>
+                <img
+                  src="../src/images/IMG_8050.jpg"
+                  alt="photo"
+                  width="306"
+                  class="img"
+                />
+              </div>
+              <div class="box2">
+                <img
+                  src="../src/images/IMG_7979.jpg"
+                  alt="photo"
+                  width="336"
+                  class="img"
+                />
               </div>
             </div>
           </div>
@@ -201,208 +196,216 @@
       </section>
       <section id="project" class="container">
         <div class="section">
-          <h2 class="container-subtitle text-uppercase title-text-color">
-            Актуальні проекти
-          </h2>
-          <ul class="section__bloklist">
-            <li class="section__blok">
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <div class="section__part">
-                <p class="section__text">
-                  Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022
-                  року
-                </p>
-                <p class="section__text">
-                  <span class="accent">150000</span>грн.
-                </p>
-                <rect class="section__text rect">86490грн.</rect>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    military-modal-open-2
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
-              </div>
+          <h2 class="progress-title">progress</h2>
+          <ul class="progress-fundraising__list">
+            <li class="progress-fundraising__item">
+              <p>Потрібно:</p>
+              <p class="progress-fundraising__text">
+                <span class="accent button-accent">60000&#8201;</span>грн.
+              </p>
             </li>
-            <li class="section__blok">
-              <img
-                src="../src/images/B9C4ECED-3012-4BDF-A620-F8DC23D6D4D2_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <div class="section__part">
-                <p class="section__text">
-                  Збір гуманітарної продовольчої допомоги для с. Либідь,
-                  Волинська обл.
-                </p>
-                <p class="section__text">
-                  <span class="accent">60000</span>грн.
-                </p>
-                <p class="section__text rect">15230грн.</p>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    data-modal-open
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
-              </div>
+            <li class="progress-fundraising__item">
+              <p>Зібрано:</p>
+              <p class="progress-fundraising__text">
+                <span class="accent button-accent">15230&#8201;</span>грн.
+              </p>
             </li>
-            <li class="section__blok">
-              <img
-                src="../src/images/IMG_3197_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <div class="section__part">
-                <p class="section__text">
-                  Збір коштів на 1 стадію забудови дитячого будинку “Мрійники”
-                </p>
-                <p class="section__text">
-                  <span class="accent">150000</span>грн.
-                </p>
-                <p class="section__text rect">Зібрано!</p>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    data-modal-open
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
-              </div>
+            <li class="progress-fundraising__item">
+              <p>Залишилось зібрати:</p>
+              <p class="progress-fundraising__text">
+                <span class="accent button-accent">44770&#8201;</span>грн.
+              </p>
             </li>
-            <li class="section__blok">
-              <img
-                src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <div class="section__part">
-                <p class="section__text">
-                  Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022
-                  року
-                </p>
-                <p class="section__text">
-                  <span class="accent">60000</span>грн.
-                </p>
-                <p class="section__text rect">15230грн.</p>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    data-modal-open
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="section__blok">
-              <img
-                src="../src/images/B9C4ECED-3012-4BDF-A620-F8DC23D6D4D2_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
-              <div class="section__part">
-                <p class="section__text">
-                  Збір гуманітарної продовольчої допомоги для с. Либідь,
-                  Волинська обл.
-                </p>
-                <p class="section__text">
-                  <span class="accent">60000</span>грн.
-                </p>
-                <p class="section__text rect">15230грн.</p>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    data-modal-open
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="section__blok">
-              <img
-                src="../src/images/IMG_3197_1.jpg"
-                alt="photo"
-                width="368"
-                class="img"
-              />
+            <li class="progress-fundraising__item">
+              <p>Поділитися із друзями:</p>
+              <div class="section__buttons">
+                <ul class="soclinks">
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href="https://www.facebook.com/"
+                        aria-label="Facebook"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
 
-              <div class="section__part">
-                <p class="section__text">
-                  Збір коштів на 1 стадію забудови дитячого будинку “Мрійники”
-                </p>
-                <p class="section__text">
-                  <span class="accent">150000</span>грн.
-                </p>
-                <p class="section__text rect">Зібрано!</p>
-                <div class="section__buttons">
-                  <button
-                    type="button"
-                    class="section__button button-accent-color"
-                    data-modal-open
-                  >
-                    Допомогти
-                  </button>
-                  <button type="button" class="section__link button-color">
-                    Детальніше
-                  </button>
-                </div>
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href=" https://www.instagram.com/"
+                        aria-label="Instagram"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href="https://www.linkedin.com/"
+                        aria-label="Linkedin"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href="https://twitter.com/"
+                        aria-label="Twitter"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-twitter"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
+
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href="https://www.viber.com"
+                        aria-label="viber"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-viber"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
+                  <li class="soclink__links">
+                    <p>
+                      <a
+                        class="soclink__icon"
+                        href="https://www.telegram.com/"
+                        aria-label="telegram"
+                      >
+                        <svg height="23" width="23">
+                          <use
+                            href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-telegram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </p>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
-          <!-- <div class="link"> -->
-          <!-- <a href="./projects.html" class="link-text title-text-color"
-						></a
-					 > -->
-          <div class="link link-project">
-            <a href="./projects.html" class="link-text title-text-color"
-              >Більше</a
+          <div class="progress-fundraising__rect">
+            <rect class="section__text rect">86490грн.</rect>
+
+            <button
+              type="button"
+              class="container-banner__button button-accent-color"
             >
-            <button type="button" class="cheveron__buttonright">
-              <svg height="23" width="23">
-                <use
-                  href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-down"
-                ></use>
-              </svg>
+              Допомогти
             </button>
-            <!-- </div> -->
           </div>
-          <!-- </div> -->
+        </div>
+      </section>
+      <section class="container">
+        <div class="section">
+          <h2 class="container-subtitle text-uppercase">ПРО ПРОЕКТ</h2>
+			 <div class="progress-fundraising">
+				  <div class="section__chapter">
+					 <p class="section__text">
+						Lorem Ipsum є псевдо-&#8205;латинський текст використовується у веб&#8205;-&#8205;дизайні, типографіка, верстка, і друку замість англійської
+						підкреслити елементи дизайну над змістом. Це також називається
+						заповнювач (або наповнювач) текст. Це зручний інструмент для
+						макетів.
+					 </p>
+					 <p class="section__text">
+						Це допомагає намітити візуальні елементи в документ або
+						презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в
+						основному частиною латинського тексту за класичною автор і
+						філософа Цицерона.
+					 </p>
+</div>
+				  <div class="section__chapter">
+					<p class="section__text">
+						Це допомагає намітити візуальні елементи в документ або
+						презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в
+						основному частиною латинського тексту за класичною автор і
+						філософа Цицерона.
+					 </p>
+					 <p class="section__text">
+						Це слова і букви були змінені додаванням або видаленням, так
+						навмисно роблять його зміст безглуздо, це не є справжньою,
+						правильно чи зрозумілою Латинської більше.
+					 </p>
+				  </div>
+				
+			 </div>
+
+			 </section>
+        </div>
+      </section>
+      <section class="container">
+        <div class="section">
+          <h2 class="container-subtitle text-uppercase">ДОКУМЕНТИ ПРОЕКТУ</h2>
+          <ul class="section-doc__list">
+            <li class="section-doc__item">
+              <img
+                src="../src/images/image_91.jpg"
+                alt="photo"
+                width="272"
+                height="384"
+                class="img"
+              />
+            </li>
+            <li class="section-doc__item">
+              <img
+                src="../src/images/image_91.jpg"
+                alt="photo"
+                width="272"
+                height="384"
+                class="img"
+              />
+            </li>
+            <li class="section-doc__item">
+              <img
+                src="../src/images/image_91.jpg"
+                alt="photo"
+                width="272"
+                height="384"
+                class="img"
+              />
+            </li>
+            <li class="section-doc__item">
+              <img
+                src="../src/images/image_91.jpg"
+                alt="photo"
+                width="272"
+                height="384"
+                class="img"
+              />
+            </li>
+          </ul>
         </div>
       </section>
     </main>

@@ -34,7 +34,6 @@ button {
   transition-duration: 1s;
 }
 .section__button {
-
   @include adaptiv-font(18, 12);
   width: 48%;
   height: 60px;
