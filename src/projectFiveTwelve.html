@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Допомога військовим</title>
+    <title>
+      Снарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022 року
+    </title>
     <link rel="stylesheet" href="./sass/styles.scss" />
     <!-- <script type="module" src="./index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,14 +36,14 @@
               <a href="./fond.html" class="main-menu__focused">Про фонд</a>
             </li>
             <li class="text-uppercase">
-              <a href="./projects.html" class="main-menu__focused"
+              <a
+                href="./projects.html"
+                class="main-menu__focused main-menu__focused--current"
                 >Проекти та програми</a
               >
             </li>
             <li class="text-uppercase">
-              <a href="./index.html#accounting" class="main-menu__focused"
-                >Звітність</a
-              >
+              <a href="./report.html" class="main-menu__focused">Звітність</a>
             </li>
             <li class="text-uppercase">
               <a href="./index.html#news" class="main-menu__focused">Новини</a>
@@ -159,7 +161,7 @@
     </header>
     <main class="main-content">
       <section class="container-hero section-fond__img">
-        <div class="sectionaccent opposite-text-color">
+        <div class="two-column sectionaccent opposite-text-color">
           <div class="section__chapter">
             <h2 class="container-subtitle text-uppercase">
               Снарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022 року
@@ -331,40 +333,39 @@
       <section class="container">
         <div class="section">
           <h2 class="container-subtitle text-uppercase">ПРО ПРОЕКТ</h2>
-			 <div class="progress-fundraising">
-				  <div class="section__chapter">
-					 <p class="section__text">
-						Lorem Ipsum є псевдо-&#8205;латинський текст використовується у веб&#8205;-&#8205;дизайні, типографіка, верстка, і друку замість англійської
-						підкреслити елементи дизайну над змістом. Це також називається
-						заповнювач (або наповнювач) текст. Це зручний інструмент для
-						макетів.
-					 </p>
-					 <p class="section__text">
-						Це допомагає намітити візуальні елементи в документ або
-						презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в
-						основному частиною латинського тексту за класичною автор і
-						філософа Цицерона.
-					 </p>
-</div>
-				  <div class="section__chapter">
-					<p class="section__text">
-						Це допомагає намітити візуальні елементи в документ або
-						презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в
-						основному частиною латинського тексту за класичною автор і
-						філософа Цицерона.
-					 </p>
-					 <p class="section__text">
-						Це слова і букви були змінені додаванням або видаленням, так
-						навмисно роблять його зміст безглуздо, це не є справжньою,
-						правильно чи зрозумілою Латинської більше.
-					 </p>
-				  </div>
-				
-			 </div>
-
-			 </section>
+          <div class="two-column progress-fundraising">
+            <div class="section__chapter">
+              <p class="section__text">
+                Lorem Ipsum є псевдо-&#8205;латинський текст використовується у
+                веб&#8205;-&#8205;дизайні, типографіка, верстка, і друку замість
+                англійської підкреслити елементи дизайну над змістом. Це також
+                називається заповнювач (або наповнювач) текст. Це зручний
+                інструмент для макетів.
+              </p>
+              <p class="section__text">
+                Це допомагає намітити візуальні елементи в документ або
+                презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum
+                в основному частиною латинського тексту за класичною автор і
+                філософа Цицерона.
+              </p>
+            </div>
+            <div class="section__chapter">
+              <p class="section__text">
+                Це допомагає намітити візуальні елементи в документ або
+                презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum
+                в основному частиною латинського тексту за класичною автор і
+                філософа Цицерона.
+              </p>
+              <p class="section__text">
+                Це слова і букви були змінені додаванням або видаленням, так
+                навмисно роблять його зміст безглуздо, це не є справжньою,
+                правильно чи зрозумілою Латинської більше.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
+
       <section class="container">
         <div class="section">
           <h2 class="container-subtitle text-uppercase">ДОКУМЕНТИ ПРОЕКТУ</h2>
@@ -426,14 +427,14 @@
               <a href="./fond.html" class="main-menu__focused">Про фонд</a>
             </li>
             <li class="text-uppercase">
-              <a href="./projects.html" class="main-menu__focused"
+              <a
+                href="./projects.html"
+                class="main-menu__focused main-menu__focused--current"
                 >Проекти та програми</a
               >
             </li>
             <li class="text-uppercase">
-              <a href="./index.html#accounting" class="main-menu__focused"
-                >Звітність</a
-              >
+              <a href="./report.html" class="main-menu__focused">Звітність</a>
             </li>
             <li class="text-uppercase">
               <a href="./index.html#news" class="main-menu__focused">Новини</a>
@@ -536,105 +537,5 @@
         </nav>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal__button-close" data-modal-close>
-          X
-          <!-- <svg class="modal__icon-close" width="18" height="18">
-            <use href="./images/sprite.svg#icon-close"></use>
-          </svg> -->
-        </button>
-        <h3 class="container-subtitle">Допомогти</h3>
-        <ol type="1">
-          <li class="modal-list">
-            <div>
-              <p class="modal-subtitle">Проект 5/12</p>
-              <p class="container-banner__text">
-                Внарядження для ЗСУ: за запитом полка “Азов” від 20.06.2022 року
-              </p>
-            </div>
-          </li>
-          <li class="modal-list">
-            <div>
-              <p class="modal-subtitle">Оберіть спосіб допомоги</p>
-              <fieldset class="container-banner__text">
-                <div>
-                  <input
-                    type="radio"
-                    id="account"
-                    name="drone"
-                    value="account"
-                    checked
-                  />
-                  <label for="account">На рахунок</label>
-                </div>
-
-                <div>
-                  <input type="radio" id="pay" name="drone" value="pay" />
-                  <label for="pay">Карта Pay Pal</label>
-                </div>
-
-                <div>
-                  <input type="radio" id="crypto" name="drone" value="crypto" />
-                  <label for="crypto">Криптовалюта</label>
-                </div>
-              </fieldset>
-              <h4 class="modal-title">Наші реквізити:</h4>
-              <p class="container-banner__text">Розрахунковий рахунок:</p>
-              <p class="container-banner__text">
-                UA5600000000000000000000000000
-              </p>
-              <p class="container-banner__text">Отримувач: ооооооооо</p>
-              <p class="container-banner__text">Назва: 000000000000</p>
-              <p class="container-banner__text">ЕГРПОУ отримувача: 0000000</p>
-              <p class="container-banner__text">Назначення: на проект 5/12</p>
-              <p class="section__text">
-                Нам дуже важливо дізнатися інформацію про наших благодійників:
-              </p>
-              <form autocomplete="off" id="form-modal" class="form-modal">
-                <ul class="form-inputs">
-                  <li class="form-inputs__item">
-                    <label class="form-inputs__field">
-                      <input
-                        type="text"
-                        name="name"
-                        placeholder="ПІБ"
-                        class="form-inputs__label"
-                      />
-                    </label>
-                  </li>
-                  <li class="form-inputs__item">
-                    <label class="form-inputs__field">
-                      <input
-                        type="tel"
-                        name="tell"
-                        autocomplete="tel"
-                        placeholder="Контактрий номер телефону"
-                        class="form-inputs__label"
-                      />
-                    </label>
-                  </li>
-                  <li class="form-inputs__item">
-                    <label class="form-inputs__field">
-                      <input
-                        type="email"
-                        name="email"
-                        autocomplete="email"
-                        placeholder="E-mail"
-                        class="form-inputs__label"
-                      />
-                    </label>
-                  </li>
-                </ul>
-              </form>
-              <button type="submit" class="modal__button button-accent-color">
-                Надіслати
-              </button>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
   </body>
 </html>
