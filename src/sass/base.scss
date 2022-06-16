@@ -37,3 +37,22 @@ svg {
 textarea {
   resize: none;
 }
+button,
+summary {
+  cursor: pointer;
+}
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::after {
+  content: '\002B';
+  font-size: 3rem;
+}
+
+details[open] > summary::after {
+  content: '\2212';
+}
