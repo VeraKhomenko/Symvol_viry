@@ -404,7 +404,7 @@ body {
   @include font-size(normal, 800, normal);
   @include adaptiv-font(58, 24);
   text-align: left;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .accent {
   @include font-size(normal, 800, normal);
@@ -523,4 +523,9 @@ footer.extreme {
 }
 .report-title {
 	padding-bottom: 50px;
+}
+.report-item {
+	display: flex;
+	align-items: center;
+	gap: 2%;
 }

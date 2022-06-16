@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Звітність</title>
-    <link rel="stylesheet" href="./sass/fonticons.css" />
+
     <link rel="stylesheet" href="./sass/styles.scss" />
     <!-- <script type="module" src="./index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -206,20 +206,49 @@
                 </p>
               </div>
               <h4 class="report-subtitle">Документація</h4>
-              <div class="two-column">
-                <p class="fa-thin fa-file-pdf section__text">
-                  Lorem Ipsum є псевдо- латинський текст
-                </p>
-                <p class="fa-thin fa-file-image section__text">
-                  Lorem Ipsum є псевдо- латинський текст
-                </p>
-                <p class="fa-thin fa-file-pdf section__text">
-                  Lorem Ipsum є псевдо- латинський текст
-                </p>
-                <p class="fa-thin fa-file-word section__text">
-                  Lorem Ipsum є псевдо- латинський текст
-                </p>
-              </div>
+              <ul class="two-column">
+                <li class="report-item">
+                  <svg class="cheveron__icon" height="60" width="60">
+                    <use
+                      href="../src/images/svg/symbols/symbol-defs.svg#icon-file-pdf"
+                    ></use>
+                  </svg>
+                  <p class="section__text">
+                    Lorem Ipsum є псевдо- латинський текст
+                  </p>
+                </li>
+
+                <li class="report-item">
+                  <svg class="cheveron__icon" height="60" width="60">
+                    <use
+                      href="../src/images/svg/symbols/symbol-defs.svg#icon-file-pdf"
+                    ></use>
+                  </svg>
+                  <p class="section__text">
+                    Lorem Ipsum є псевдо- латинський текст
+                  </p>
+                </li>
+                <li class="report-item">
+                  <svg class="cheveron__icon" height="60" width="60">
+                    <use
+                      href="../src/images/svg/symbols/symbol-defs.svg#icon-drawer"
+                    ></use>
+                  </svg>
+                  <p class="fa-thin fa-file-image section__text">
+                    Lorem Ipsum є псевдо- латинський текст
+                  </p>
+                </li>
+                <li class="report-item">
+                  <svg class="cheveron__icon" height="60" width="60">
+                    <use
+                      href="../src/images/svg/symbols/symbol-defs.svg#icon-file-word"
+                    ></use>
+                  </svg>
+                  <p class="fa-thin fa-file-word section__text">
+                    Lorem Ipsum є псевдо- латинський текст
+                  </p>
+                </li>
+              </ul>
             </details>
             <details>
               <summary class="report section-question__item">
@@ -235,7 +264,7 @@
         </div>
       </section>
       <section id="contact" class="container">
-        <div class="section-social title-text-color">
+        <div class="title-text-color">
           <h2 class="container-subtitle text-uppercase">
             МИ В СОЦІАЛЬНИХ МЕРЕЖАХ
           </h2>
