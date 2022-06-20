@@ -1,4 +1,4 @@
-21991
+21999
 40D:\Symvol_viry\src\images\IMG_1547 1.jpg133000250930005874 0
 95D:\Symvol_viry\node_modules\postcss-normalize-display-values\node_modules\postcss\lib\parser.js121436361000000000 0
 73D:\Symvol_viry\node_modules\postcss-unique-selectors\node_modules\postcss132986380328757525 1
@@ -6,7 +6,7 @@
 48D:\Symvol_viry\node_modules\consola\src\types.js121436361000000000 0
 48D:\Symvol_viry\node_modules\webpack\node_modules132986380352343211 1
 59D:\Symvol_viry\node_modules\caniuse-lite\data\regions\KG.js121436361000000000 0
-41D:\Symvol_viry\src\projectFiveTwelve.html132999295323288385 0
+41D:\Symvol_viry\src\projectFiveTwelve.html133000373774834161 0
 71D:\Symvol_viry\node_modules\@parcel\workers\src\threads\ThreadsChild.js121436361000000000 0
 62D:\Symvol_viry\node_modules\sprintf-js\dist\sprintf.min.js.map130772004810000000 0
 63D:\Symvol_viry\node_modules\sass\types\value\argument_list.d.ts121436361000000000 0
@@ -53,8 +53,8 @@
 47D:\Symvol_viry\node_modules\.bin\not-in-install132986380345110219 0
 49D:\Symvol_viry\node_modules\escalade\package.json132985473586588627 0
 72D:\Symvol_viry\node_modules\webpack-dev-server\client\utils\reloadApp.js121436361000000000 0
-77D:\Symvol_viry\dist\Symvol_Viry_logo_UA_bw2_without_descriptor_2.7dbc4498.png132998721744692801 0
-28D:\Symvol_viry\src\fond.html132999294292587419 0
+77D:\Symvol_viry\dist\Symvol_Viry_logo_UA_bw2_without_descriptor_2.7dbc4498.png133001903419200697 0
+28D:\Symvol_viry\src\fond.html133000373737130946 0
 75D:\Symvol_viry\node_modules\postcss-svgo\node_modules\has-flag\package.json132986380328807531 0
 44D:\Symvol_viry\node_modules\posthtml\license121436361000000000 0
 63D:\Symvol_viry\node_modules\domelementtype\lib\esm\package.json121436361000000000 0
@@ -75,7 +75,7 @@
 50D:\Symvol_viry\node_modules\to-arraybuffer\LICENSE130971228160000000 0
 52D:\Symvol_viry\node_modules\delayed-stream\Readme.md130746338120000000 0
 51D:\Symvol_viry\node_modules\@parcel\packager-js\lib132985874300953951 1
-18D:\Symvol_viry\src133000240305501556 1
+18D:\Symvol_viry\src133000368931738066 1
 80D:\Symvol_viry\node_modules\serve-index\public\icons\application_xp_terminal.png131320478100000000 0
 36D:\Symvol_viry\node_modules\fs-extra132985905463455983 1
 96D:\Symvol_viry\node_modules\webpack-cli\node_modules\chalk\node_modules\supports-color\readme.md131663821590000000 0
@@ -153,7 +153,7 @@
 59D:\Symvol_viry\node_modules\caniuse-lite\data\regions\VI.js121436361000000000 0
 44D:\Symvol_viry\webpack\configs\production.js132987151695578922 0
 93D:\Symvol_viry\node_modules\postcss-normalize-string\node_modules\postcss\lib\previous-map.js121436361000000000 0
-19D:\Symvol_viry\dist133000282309735843 1
+19D:\Symvol_viry\dist133001904337924755 1
 99D:\Symvol_viry\node_modules\postcss-normalize-unicode\node_modules\picocolors\picocolors.browser.js121436361000000000 0
 54D:\Symvol_viry\node_modules\@parcel\types\package.json132985874537046831 0
 27D:\Symvol_viry\node_modules132986380405365171 1
@@ -236,7 +236,7 @@
 73D:\Symvol_viry\node_modules\postcss-loader\node_modules\semver\preload.js121436361000000000 0
 82D:\Symvol_viry\node_modules\http-proxy-middleware\node_modules\braces\lib\utils.js121436361000000000 0
 69D:\Symvol_viry\node_modules\webpack\lib\FlagAllModulesAsUsedPlugin.js121436361000000000 0
-49D:\Symvol_viry\src\projectMilitaryAssistance.html132999295500946314 0
+49D:\Symvol_viry\src\projectMilitaryAssistance.html133000373806531358 0
 103D:\Symvol_viry\node_modules\postcss-normalize-whitespace\node_modules\postcss-value-parser\package.json132986380329317643 0
 32D:\Symvol_viry\webpack\config.js132987151695278854 0
 58D:\Symvol_viry\node_modules\yaml\dist\warnings-1000a372.js121436361000000000 0
@@ -256,7 +256,7 @@
 56D:\Symvol_viry\node_modules\sass\types\value\string.d.ts121436361000000000 0
 87D:\Symvol_viry\node_modules\webpack-dev-server\node_modules\binary-extensions\readme.md121436361000000000 0
 73D:\Symvol_viry\node_modules\webpack\node_modules\acorn\dist\acorn.mjs.map121436361000000000 0
-30D:\Symvol_viry\src\report.html132999295896229775 0
+30D:\Symvol_viry\src\report.html133000373675134861 0
 41D:\Symvol_viry\node_modules\rimraf\bin.js121436361000000000 0
 81D:\Symvol_viry\node_modules\@babel\highlight\node_modules\supports-color\index.js131792129460000000 0
 41D:\Symvol_viry\node_modules\y18n\index.js121436361000000000 0
@@ -288,16 +288,15 @@
 63D:\Symvol_viry\node_modules\remove-trailing-separator\readme.md131473456670000000 0
 31D:\Symvol_viry\node_modules\prr132986380328568575 1
 66D:\Symvol_viry\node_modules\webpack-dev-server\lib\utils\colors.js121436361000000000 0
-40D:\Symvol_viry\webpack\configs\shared.js132987151695738960 0
-69D:\Symvol_viry\node_modules\caniuse-lite\data\features\audiotracks.js121436361000000000 0
-63D:\Symvol_viry\node_modules\es-abstract\2022\SetFunctionName.js121436361000000000 0
-88D:\Symvol_viry\node_modules\postcss-svgo\node_modules\css-tree\lib\syntax\node\Number.js121436361000000000 0
-68D:\Symvol_viry\node_modules\webpack\node_modules\json5\dist\index.js131658179850000000 0
-39D:\Symvol_viry\node_modules\create-ecdh132986380333413249 1
-52D:\Symvol_viry\node_modules\postcss-normalize-string132986380329927279 1
-45D:\Symvol_viry\node_modules\des.js\lib\des.js121436361000000000 0
-44D:\Symvol_viry\node_modules\batch\History.md131394426420000000 0
-74D:\Symvol_viry\src\images\Symvol_Viry_logo_EN_bw1_without_descriptor_2.png132991924821588421 0
+40D:\Symvol_viry\webpack\configs\shared.js133001904598114873 0
+86D:\Symvol_viry\node_modules\webpack\lib\performance\EntrypointsOverSizeLimitWarning.js121436361000000000 0
+44D:\Symvol_viry\node_modules\svgo\lib\path.js121436361000000000 0
+48D:\Symvol_viry\node_modules\node-forge\flash\swf132986380190313552 1
+42D:\Symvol_viry\node_modules\batch\Makefile131349373470000000 0
+69D:\Symvol_viry\node_modules\webpack-cli\node_modules\has-flag\license131408182550000000 0
+71D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-paint-api.js121436361000000000 0
+32D:\Symvol_viry\src\contacts.html133001903558594165 0
+45D:\Symvol_viry\node_modules\svgo\lib\types.ts121436361000000000 0
 59D:\Symvol_viry\node_modules\fast-glob\out\utils\stream.d.ts121436361000000000 0
 72D:\Symvol_viry\node_modules\wrap-ansi\node_modules\ansi-styles\readme.md131628273600000000 0
 47D:\Symvol_viry\node_modules\type-fest\base.d.ts121436361000000000 0
@@ -319,7 +318,7 @@
 100D:\Symvol_viry\node_modules\postcss-normalize-whitespace\node_modules\postcss-value-parser\README.md121436361000000000 0
 68D:\Symvol_viry\node_modules\es-abstract\2016\CreateMethodProperty.js121436361000000000 0
 51D:\Symvol_viry\node_modules\@lezer\lr\dist\index.js121436361000000000 0
-29D:\Symvol_viry\src\index.html132999294434710750 0
+29D:\Symvol_viry\src\index.html133001904254230028 0
 91D:\Symvol_viry\node_modules\postcss-svgo\node_modules\css-tree\lib\syntax\pseudo\slotted.js121436361000000000 0
 51D:\Symvol_viry\node_modules\lodash\_baseExtremum.js121436361000000000 0
 81D:\Symvol_viry\node_modules\webpack-dev-server\node_modules\chokidar\CHANGELOG.md121436361000000000 0
@@ -337,7 +336,7 @@
 48D:\Symvol_viry\node_modules\html-minifier-terser132986380327778399 1
 31D:\Symvol_viry\node_modules\ini132986380336521307 1
 90D:\Symvol_viry\node_modules\postcss-minify-font-values\node_modules\postcss\lib\at-rule.js121436361000000000 0
-28D:\Symvol_viry\src\news.html133000247406851338 0
+28D:\Symvol_viry\src\news.html133001904297212278 0
 34D:\Symvol_viry\node_modules\stable132985874539104412 1
 59D:\Symvol_viry\node_modules\supports-preserve-symlinks-flag132986380323166328 1
 87D:\Symvol_viry\node_modules\postcss-svgo\node_modules\svgo\plugins\removeHiddenElems.js121436361000000000 0
@@ -353,11 +352,11 @@
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\02\e56519e056d4ff0157458332d1fdcf68228e0b132991758185846581 0
 88D:\Symvol_viry\node_modules\webpack\lib\dependencies\CommonJsRequireContextDependency.js121436361000000000 0
 56D:\Symvol_viry\node_modules\neo-async\transformSeries.js121436361000000000 0
-32D:\Symvol_viry\src\newsTrip.html133000280610646394 0
+32D:\Symvol_viry\src\newsTrip.html133001904335597675 0
 91D:\Symvol_viry\node_modules\clean-css\lib\optimizer\level-2\properties\every-values-pair.js121436361000000000 0
 67D:\Symvol_viry\node_modules\node-sass\test\fixtures\watcher\sibling132986380200498189 1
 48D:\Symvol_viry\node_modules\posthtml-include\lib132985874280089653 1
-32D:\Symvol_viry\src\projects.html132999295602586901 0
+32D:\Symvol_viry\src\projects.html133000373857071716 0
 80D:\Symvol_viry\node_modules\@parcel\node-resolver-core\test\fixture\node_modules132985874332505007 1
 60D:\Symvol_viry\src\images\svg\sociallogo\demo-files\demo.css132985011003089574 0
 59D:\Symvol_viry\node_modules\miller-rabin\node_modules\bn.js132986380333843347 1
@@ -411,7 +410,7 @@
 40D:\Symvol_viry\node_modules\argparse\lib132986380074843014 1
 64D:\Symvol_viry\node_modules\readable-stream\lib\internal\streams132986380057313681 1
 37D:\Symvol_viry\node_modules\delegates132986380338904289 1
-33D:\Symvol_viry\src\sass\body.scss133000284966513754 0
+33D:\Symvol_viry\src\sass\body.scss133000380316174600 0
 50D:\Symvol_viry\node_modules\webpack-dev-server\lib132986380031658252 1
 62D:\Symvol_viry\node_modules\webpack\lib\AbstractMethodError.js121436361000000000 0
 53D:\Symvol_viry\node_modules\yargs-parser\node_modules132986380305192731 1
@@ -588,6 +587,15 @@
 97D:\Symvol_viry\node_modules\tar\.nyc_output\processinfo\37d58de4-deea-4808-bb77-d27685bd1501.json121436361000000000 0
 55D:\Symvol_viry\node_modules\es-abstract\2016\IsArray.js121436361000000000 0
 30D:\Symvol_viry\node_modules\ms132986380332984174 1
+69D:\Symvol_viry\node_modules\caniuse-lite\data\features\audiotracks.js121436361000000000 0
+63D:\Symvol_viry\node_modules\es-abstract\2022\SetFunctionName.js121436361000000000 0
+88D:\Symvol_viry\node_modules\postcss-svgo\node_modules\css-tree\lib\syntax\node\Number.js121436361000000000 0
+68D:\Symvol_viry\node_modules\webpack\node_modules\json5\dist\index.js131658179850000000 0
+39D:\Symvol_viry\node_modules\create-ecdh132986380333413249 1
+52D:\Symvol_viry\node_modules\postcss-normalize-string132986380329927279 1
+45D:\Symvol_viry\node_modules\des.js\lib\des.js121436361000000000 0
+44D:\Symvol_viry\node_modules\batch\History.md131394426420000000 0
+74D:\Symvol_viry\src\images\Symvol_Viry_logo_EN_bw1_without_descriptor_2.png132991924821588421 0
 53D:\Symvol_viry\node_modules\snapdragon-node\README.md131381140040000000 0
 58D:\Symvol_viry\node_modules\resolve\test\precedence\bbb.js121436361000000000 0
 79D:\Symvol_viry\node_modules\webpack\declarations\plugins\WatchIgnorePlugin.d.ts121436361000000000 0
@@ -918,7 +926,7 @@
 98D:\Symvol_viry\node_modules\terser-webpack-plugin\node_modules\schema-utils\src\ValidationError.js121436361000000000 0
 47D:\Symvol_viry\node_modules\lodash\fp\meanBy.js121436361000000000 0
 41D:\Symvol_viry\node_modules\fastq\.github132985874313608631 1
-41D:\Symvol_viry\dist\IMG_7979.011c5b32.jpg132998721745248238 0
+41D:\Symvol_viry\dist\IMG_7979.011c5b32.jpg133001903420150902 0
 35D:\Symvol_viry\node_modules\pumpify132986380323866471 1
 64D:\Symvol_viry\node_modules\htmlnano\docs\docs\060-contribute.md121436361000000000 0
 52D:\Symvol_viry\src\images\svg\sociallogo\Read Me.txt132982330641143613 0
@@ -2068,7 +2076,7 @@
 96D:\Symvol_viry\node_modules\friendly-errors-webpack-plugin\node_modules\ansi-styles\package.json132986380337810914 0
 81D:\Symvol_viry\node_modules\webpack-dev-middleware\node_modules\mime\CHANGELOG.md121436361000000000 0
 43D:\Symvol_viry\node_modules\define-property132986380334322324 1
-30D:\Symvol_viry\dist\index.html133000234666397249 0
+30D:\Symvol_viry\dist\index.html133001904257017257 0
 99D:\Symvol_viry\node_modules\postcss-minify-gradients\node_modules\postcss-value-parser\lib\index.js121436361000000000 0
 61D:\Symvol_viry\node_modules\webpack\lib\DynamicEntryPlugin.js121436361000000000 0
 55D:\Symvol_viry\node_modules\simple-swizzle\node_modules132986380280223548 1
@@ -2582,15 +2590,15 @@
 53D:\Symvol_viry\node_modules\postcss-normalize-unicode132986380329797236 1
 74D:\Symvol_viry\node_modules\serve-index\public\icons\page_white_camera.png131320478100000000 0
 44D:\Symvol_viry\node_modules\homedir-polyfill132986380331865441 1
+38D:\Symvol_viry\node_modules\prr\prr.js130093104440000000 0
+42D:\Symvol_viry\node_modules\path-is-inside132986380331385325 1
+52D:\Symvol_viry\node_modules\function-bind\.jscs.json131483794420000000 0
 63D:\Symvol_viry\node_modules\postcss-modules-values\src\index.js121436361000000000 0
 54D:\Symvol_viry\node_modules\lodash\_iteratorToArray.js121436361000000000 0
 45D:\Symvol_viry\node_modules\eventemitter3\umd132986380169833505 1
 105D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\ae132998657244976098 1
-43D:\Symvol_viry\node_modules\hosted-git-info132986380337230786 1
 52D:\Symvol_viry\node_modules\yargs\locales\zh_CN.json121436361000000000 0
-38D:\Symvol_viry\node_modules\prr\prr.js130093104440000000 0
-42D:\Symvol_viry\node_modules\path-is-inside132986380331385325 1
-52D:\Symvol_viry\node_modules\function-bind\.jscs.json131483794420000000 0
+43D:\Symvol_viry\node_modules\hosted-git-info132986380337230786 1
 54D:\Symvol_viry\node_modules\postcss-minify-font-values132986380330487398 1
 59D:\Symvol_viry\node_modules\caniuse-lite\data\regions\MO.js121436361000000000 0
 102D:\Symvol_viry\node_modules\postcss-normalize-positions\node_modules\postcss-value-parser\lib\index.js121436361000000000 0
@@ -2933,7 +2941,7 @@
 93D:\Symvol_viry\node_modules\webpack\lib\dependencies\CommonJsRequireDependencyParserPlugin.js121436361000000000 0
 73D:\Symvol_viry\node_modules\cross-spawn\node_modules\yallist\package.json132986380339464411 0
 35D:\Symvol_viry\node_modules\methods132986380333773338 1
-43D:\Symvol_viry\dist\IMG_3534_4.690ab57c.jpg132998721745118179 0
+43D:\Symvol_viry\dist\IMG_3534_4.690ab57c.jpg133001903419260705 0
 58D:\Symvol_viry\node_modules\webpack\lib\util\identifier.js121436361000000000 0
 63D:\Symvol_viry\node_modules\webpack\lib\FunctionModulePlugin.js121436361000000000 0
 50D:\Symvol_viry\node_modules\lodash\wrapperValue.js121436361000000000 0
@@ -3195,6 +3203,7 @@
 69D:\Symvol_viry\node_modules\reusify\benchmarks\reuseNoCodeFunction.js131614317850000000 0
 69D:\Symvol_viry\node_modules\webpack-dev-server\node_modules\debug\src132986380014580836 1
 34D:\Symvol_viry\node_modules\uri-js132986377782974718 1
+36D:\Symvol_viry\dist\news.f0841597.js133001904299150748 0
 100D:\Symvol_viry\node_modules\postcss-normalize-timing-functions\node_modules\postcss\lib\postcss.d.ts121436361000000000 0
 40D:\Symvol_viry\node_modules\node-gyp\lib132986380088453334 1
 46D:\Symvol_viry\node_modules\strip-eof\index.js130937887070000000 0
@@ -3440,7 +3449,7 @@
 96D:\Symvol_viry\node_modules\postcss-merge-rules\node_modules\postcss-selector-parser\LICENSE-MIT121436361000000000 0
 45D:\Symvol_viry\node_modules\duplexify\LICENSE121436361000000000 0
 92D:\Symvol_viry\node_modules\webpack\node_modules\is-number\node_modules\kind-of\package.json132986380317939259 0
-50D:\Symvol_viry\dist\symbol-sociallogo.13cfc259.svg132998721744692801 0
+50D:\Symvol_viry\dist\symbol-sociallogo.13cfc259.svg133001903420483134 0
 42D:\Symvol_viry\node_modules\pump\README.md131618655980000000 0
 71D:\Symvol_viry\node_modules\webpack\schemas\plugins\ProgressPlugin.json121436361000000000 0
 36D:\Symvol_viry\node_modules\punycode132985473576478232 1
@@ -4277,10 +4286,10 @@
 56D:\Symvol_viry\node_modules\lodash\fp\matchesProperty.js121436361000000000 0
 48D:\Symvol_viry\node_modules\yallist\package.json132986377509376370 0
 55D:\Symvol_viry\node_modules\lodash\_createAggregator.js121436361000000000 0
-144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\c9\960d68217fb35c9dfd67cb34af792f3cabf70e132991959273096176 0
-81D:\Symvol_viry\node_modules\webpack-dev-server\node_modules\glob-parent\README.md131262041150000000 0
-60D:\Symvol_viry\node_modules\sockjs-client\lib\event\close.js121436361000000000 0
 45D:\Symvol_viry\node_modules\yallist\README.md121436361000000000 0
+144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\c9\960d68217fb35c9dfd67cb34af792f3cabf70e132991959273096176 0
+60D:\Symvol_viry\node_modules\sockjs-client\lib\event\close.js121436361000000000 0
+81D:\Symvol_viry\node_modules\webpack-dev-server\node_modules\glob-parent\README.md131262041150000000 0
 51D:\Symvol_viry\node_modules\stdout-stream\README.md121436361000000000 0
 57D:\Symvol_viry\node_modules\sockjs-client\node_modules\ms132986380325433103 1
 46D:\Symvol_viry\node_modules\yallist\yallist.js121436361000000000 0
@@ -4394,7 +4403,7 @@
 64D:\Symvol_viry\node_modules\wrap-ansi\node_modules\color-convert132986380315990454 1
 44D:\Symvol_viry\node_modules\make-dir\license121436361000000000 0
 48D:\Symvol_viry\node_modules\utila\lib\Emitter.js130584459990000000 0
-57D:\Symvol_viry\dist\projectMilitaryAssistance.ba4f3a9f.js132998721744692801 0
+57D:\Symvol_viry\dist\projectMilitaryAssistance.ba4f3a9f.js133001903419210708 0
 71D:\Symvol_viry\node_modules\webpack\lib\DelegatedModuleFactoryPlugin.js121436361000000000 0
 61D:\Symvol_viry\node_modules\wrap-ansi\node_modules\color-name132986380315990454 1
 88D:\Symvol_viry\node_modules\webpack-cli\node_modules\loader-utils\lib\interpolateName.js121436361000000000 0
@@ -5470,11 +5479,6 @@
 75D:\Symvol_viry\node_modules\webpack-cli\node_modules\json5\lib\stringify.js131658179830000000 0
 73D:\Symvol_viry\node_modules\webpack-cli\node_modules\json5\lib\unicode.js131658179820000000 0
 70D:\Symvol_viry\node_modules\webpack-cli\node_modules\has-flag\index.js131593941750000000 0
-86D:\Symvol_viry\node_modules\webpack\lib\performance\EntrypointsOverSizeLimitWarning.js121436361000000000 0
-44D:\Symvol_viry\node_modules\svgo\lib\path.js121436361000000000 0
-48D:\Symvol_viry\node_modules\node-forge\flash\swf132986380190313552 1
-42D:\Symvol_viry\node_modules\batch\Makefile131349373470000000 0
-69D:\Symvol_viry\node_modules\webpack-cli\node_modules\has-flag\license131408182550000000 0
 107D:\Symvol_viry\node_modules\postcss-normalize-display-values\node_modules\postcss\lib\terminal-highlight.js121436361000000000 0
 69D:\Symvol_viry\node_modules\fast-json-stable-stringify\example\str.js121436361000000000 0
 92D:\Symvol_viry\node_modules\webpack\lib\dependencies\RequireContextDependencyParserPlugin.js121436361000000000 0
@@ -5564,7 +5568,7 @@
 93D:\Symvol_viry\node_modules\postcss-svgo\node_modules\css-tree\lib\utils\createCustomError.js121436361000000000 0
 45D:\Symvol_viry\node_modules\cssesc\bin\cssesc121436361000000000 0
 50D:\Symvol_viry\node_modules\safer-buffer\Readme.md121436361000000000 0
-29D:\Symvol_viry\dist\fond.html133000234665677071 0
+29D:\Symvol_viry\dist\fond.html133001903420150902 0
 82D:\Symvol_viry\node_modules\readable-stream\lib\internal\streams\stream-browser.js121436361000000000 0
 46D:\Symvol_viry\node_modules\retry\package.json132986380326909560 0
 60D:\Symvol_viry\node_modules\es-abstract\2021\IsExtensible.js121436361000000000 0
@@ -7741,7 +7745,7 @@
 59D:\Symvol_viry\node_modules\terser\lib\compress\evaluate.js121436361000000000 0
 45D:\Symvol_viry\node_modules\parcel\lib\cli.js121436361000000000 0
 56D:\Symvol_viry\node_modules\terser\lib\compress\index.js121436361000000000 0
-49D:\Symvol_viry\dist\projectFiveTwelve.79080cc7.js132998721744692801 0
+49D:\Symvol_viry\dist\projectFiveTwelve.79080cc7.js133001903419210708 0
 62D:\Symvol_viry\node_modules\terser\lib\compress\reduce-vars.js121436361000000000 0
 51D:\Symvol_viry\node_modules\source-list-map\LICENSE131836420280000000 0
 63D:\Symvol_viry\node_modules\terser\lib\compress\tighten-body.js121436361000000000 0
@@ -7963,7 +7967,7 @@
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\45\540151b287b7bdc2b65e845394c9ca11e486fd132991758139993348 0
 64D:\Symvol_viry\node_modules\svgo\plugins\cleanupNumericValues.js121436361000000000 0
 66D:\Symvol_viry\node_modules\resolve\test\resolver\baz\package.json121436361000000000 0
-78D:\Symvol_viry\dist\Symvol_Viry_logo_EN_main_without_descriptor_1.7a1df29d.png132998721744692801 0
+78D:\Symvol_viry\dist\Symvol_Viry_logo_EN_main_without_descriptor_1.7a1df29d.png133001903419200697 0
 56D:\Symvol_viry\node_modules\block-stream\block-stream.js130107058200000000 0
 93D:\Symvol_viry\node_modules\postcss-reduce-transforms\node_modules\picocolors\picocolors.d.ts121436361000000000 0
 60D:\Symvol_viry\node_modules\svgo\plugins\convertTransform.js121436361000000000 0
@@ -8035,7 +8039,6 @@
 49D:\Symvol_viry\node_modules\svgo\lib\svgo-node.js121436361000000000 0
 59D:\Symvol_viry\node_modules\caniuse-lite\data\regions\FO.js121436361000000000 0
 44D:\Symvol_viry\node_modules\svgo\lib\svgo.js121436361000000000 0
-45D:\Symvol_viry\node_modules\svgo\lib\types.ts121436361000000000 0
 48D:\Symvol_viry\node_modules\svgo\lib\svgo\coa.js121436361000000000 0
 65D:\Symvol_viry\node_modules\@types\webpack-sources\lib\index.d.ts132728346840000000 0
 54D:\Symvol_viry\node_modules\relateurl\lib\util\path.js130737020520000000 0
@@ -8176,7 +8179,7 @@
 76D:\Symvol_viry\node_modules\es-abstract\2019\AbstractRelationalComparison.js121436361000000000 0
 73D:\Symvol_viry\node_modules\stylehacks\node_modules\postcss\lib\result.js121436361000000000 0
 71D:\Symvol_viry\node_modules\stylehacks\node_modules\postcss\lib\rule.js121436361000000000 0
-71D:\Symvol_viry\dist\83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.0b531bb6.jpg132998721744692801 0
+71D:\Symvol_viry\dist\83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.0b531bb6.jpg133001903419260705 0
 76D:\Symvol_viry\node_modules\stylehacks\node_modules\postcss\lib\stringify.js121436361000000000 0
 45D:\Symvol_viry\node_modules\lodash\isEqual.js121436361000000000 0
 77D:\Symvol_viry\node_modules\css-loader\node_modules\semver\functions\parse.js121436361000000000 0
@@ -11029,7 +11032,7 @@
 47D:\Symvol_viry\node_modules\json5\dist\index.js121436361000000000 0
 81D:\Symvol_viry\node_modules\postcss-svgo\node_modules\dom-serializer\node_modules132986380273804557 1
 51D:\Symvol_viry\node_modules\negotiator\package.json132986380332614104 0
-41D:\Symvol_viry\dist\image_74.1615c080.jpg132998721744849042 0
+41D:\Symvol_viry\dist\image_74.1615c080.jpg133001903419400745 0
 104D:\Symvol_viry\node_modules\postcss-svgo\node_modules\dom-serializer\node_modules\domelementtype\lib\esm132986380090720890 1
 111D:\Symvol_viry\node_modules\postcss-svgo\node_modules\dom-serializer\node_modules\domelementtype\lib\index.d.ts121436361000000000 0
 115D:\Symvol_viry\node_modules\postcss-svgo\node_modules\dom-serializer\node_modules\domelementtype\lib\index.d.ts.map121436361000000000 0
@@ -11470,7 +11473,7 @@
 91D:\Symvol_viry\node_modules\postcss-normalize-whitespace\node_modules\postcss\lib\vendor.js121436361000000000 0
 57D:\Symvol_viry\node_modules\@babel\highlight\package.json132985473571858982 0
 94D:\Symvol_viry\node_modules\postcss-normalize-whitespace\node_modules\postcss\lib\warn-once.js121436361000000000 0
-43D:\Symvol_viry\dist\IMG_1738_4.bbc6c87b.jpg132998721745158192 0
+43D:\Symvol_viry\dist\IMG_1738_4.bbc6c87b.jpg133001903419900844 0
 94D:\Symvol_viry\node_modules\postcss-normalize-whitespace\node_modules\picocolors\picocolors.js121436361000000000 0
 76D:\Symvol_viry\node_modules\postcss-normalize-url\node_modules\normalize-url132986380329857257 1
 77D:\Symvol_viry\node_modules\postcss-colormin\node_modules\picocolors\types.ts121436361000000000 0
@@ -11703,7 +11706,7 @@
 95D:\Symvol_viry\node_modules\postcss-normalize-repeat-style\node_modules\postcss\lib\tokenize.js121436361000000000 0
 51D:\Symvol_viry\node_modules\create-ecdh\.travis.yml121436361000000000 0
 93D:\Symvol_viry\node_modules\postcss-normalize-repeat-style\node_modules\postcss\lib\vendor.js121436361000000000 0
-44D:\Symvol_viry\dist\projects.55fbbfc6.js.map132998721745178214 0
+44D:\Symvol_viry\dist\projects.55fbbfc6.js.map133001903420210926 0
 96D:\Symvol_viry\node_modules\postcss-normalize-repeat-style\node_modules\postcss\lib\warn-once.js121436361000000000 0
 56D:\Symvol_viry\node_modules\es-abstract\2019\MakeDate.js121436361000000000 0
 98D:\Symvol_viry\node_modules\postcss-normalize-repeat-style\node_modules\picocolors\picocolors.d.ts121436361000000000 0
@@ -17337,7 +17340,7 @@
 61D:\Symvol_viry\node_modules\es-abstract\5\IsDataDescriptor.js121436361000000000 0
 64D:\Symvol_viry\node_modules\es-abstract\5\IsGenericDescriptor.js121436361000000000 0
 52D:\Symvol_viry\node_modules\es-abstract\5\MakeDay.js121436361000000000 0
-42D:\Symvol_viry\dist\report.d4f8e729.js.map132998721746930286 0
+42D:\Symvol_viry\dist\report.d4f8e729.js.map133001903420210926 0
 53D:\Symvol_viry\node_modules\es-abstract\5\MakeTime.js121436361000000000 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\53\28efaf68c35074e9e8db579f66971ec3d07c56132985645909128046 0
 49D:\Symvol_viry\node_modules\@parcel\graph\LICENSE121436361000000000 0
@@ -17807,6 +17810,7 @@
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\7d\fb7a8c01c7e24f5a83db0dc79da6f9c6e3941f132998657214753048 0
 58D:\Symvol_viry\node_modules\es-abstract\2018\SplitMatch.js121436361000000000 0
 71D:\Symvol_viry\node_modules\es-abstract\2018\SymbolDescriptiveString.js121436361000000000 0
+40D:\Symvol_viry\dist\news.f0841597.js.map133001904299190782 0
 64D:\Symvol_viry\node_modules\es-abstract\2018\thisBooleanValue.js121436361000000000 0
 59D:\Symvol_viry\node_modules\es-abstract\2017\UTF16Decode.js121436361000000000 0
 63D:\Symvol_viry\node_modules\es-abstract\2018\thisNumberValue.js121436361000000000 0
@@ -18486,6 +18490,7 @@
 59D:\Symvol_viry\node_modules\css-tree\lib\lexer\structure.js121436361000000000 0
 59D:\Symvol_viry\node_modules\caniuse-lite\data\regions\AS.js121436361000000000 0
 60D:\Symvol_viry\node_modules\css-tree\lib\generator\create.js121436361000000000 0
+33D:\Symvol_viry\dist\contacts.html133001903561980550 0
 113D:\Symvol_viry\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1132985874331864930 1
 70D:\Symvol_viry\node_modules\css-tree\lib\definition-syntax\generate.js121436361000000000 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\e4\fb54b6f79f0582594ce6b8bd57ce170be631f9132990919854099877 0
@@ -18770,12 +18775,12 @@
 54D:\Symvol_viry\node_modules\color-convert\CHANGELOG.md121436361000000000 0
 51D:\Symvol_viry\node_modules\color-convert\README.md121436361000000000 0
 42D:\Symvol_viry\node_modules\color\index.js121436361000000000 0
-71D:\Symvol_viry\dist\B9C4ECED-3012-4BDF-A620-F8DC23D6D4D2_1.f1a93455.jpg132998721744692801 0
+71D:\Symvol_viry\dist\B9C4ECED-3012-4BDF-A620-F8DC23D6D4D2_1.f1a93455.jpg133001903419370717 0
 46D:\Symvol_viry\node_modules\color\node_modules132986380280343587 1
 43D:\Symvol_viry\node_modules\color\README.md121436361000000000 0
 60D:\Symvol_viry\node_modules\color\node_modules\color-convert132986380340004250 1
 57D:\Symvol_viry\node_modules\color\node_modules\color-name132986380340014249 1
-41D:\Symvol_viry\dist\image_91.aac8e533.jpg132998721744692801 0
+41D:\Symvol_viry\dist\image_91.aac8e533.jpg133001903419200697 0
 72D:\Symvol_viry\node_modules\color\node_modules\color-name\.eslintrc.json131174093250000000 0
 105D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\33132992734530277556 1
 68D:\Symvol_viry\node_modules\color\node_modules\color-name\.npmignore130800019150000000 0
@@ -19236,7 +19241,6 @@
 78D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-overflow-overlay.js121436361000000000 0
 72D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-page-break.js121436361000000000 0
 73D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-paged-media.js121436361000000000 0
-71D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-paint-api.js121436361000000000 0
 77D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-read-only-write.js121436361000000000 0
 69D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-regions.js121436361000000000 0
 81D:\Symvol_viry\node_modules\caniuse-lite\data\features\css-repeating-gradients.js121436361000000000 0
@@ -19661,7 +19665,7 @@
 110D:\Symvol_viry\node_modules\browserify-sign\node_modules\readable-stream\lib\internal\streams\end-of-stream.js121436361000000000 0
 43D:\Symvol_viry\node_modules\async\concat.js121436361000000000 0
 105D:\Symvol_viry\node_modules\browserify-sign\node_modules\readable-stream\lib\internal\streams\pipeline.js121436361000000000 0
-53D:\Symvol_viry\dist\projectFiveTwelve.79080cc7.js.map132998721745258233 0
+53D:\Symvol_viry\dist\projectFiveTwelve.79080cc7.js.map133001903420210926 0
 102D:\Symvol_viry\node_modules\browserify-sign\node_modules\readable-stream\lib\internal\streams\state.js121436361000000000 0
 103D:\Symvol_viry\node_modules\browserify-sign\node_modules\readable-stream\lib\internal\streams\stream.js121436361000000000 0
 63D:\Symvol_viry\node_modules\browserify-sign\browser\curves.json121436361000000000 0
@@ -19703,7 +19707,7 @@
 51D:\Symvol_viry\node_modules\braces\lib\constants.js121436361000000000 0
 47D:\Symvol_viry\node_modules\braces\lib\parse.js121436361000000000 0
 52D:\Symvol_viry\node_modules\brace-expansion\index.js131626435880000000 0
-43D:\Symvol_viry\dist\IMG_3401_4.30851619.jpg132998721745158192 0
+43D:\Symvol_viry\dist\IMG_3401_4.30851619.jpg133001903419740798 0
 55D:\Symvol_viry\node_modules\bluebird\js\release\each.js121436361000000000 0
 56D:\Symvol_viry\node_modules\brace-expansion\package.json132985905462385995 0
 53D:\Symvol_viry\node_modules\brace-expansion\README.md131627221250000000 0
@@ -21774,7 +21778,7 @@
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4f\084762e074911a9b53036337d742c0b66e5bba132991959301135596 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4f\0f28c83eccde9a6544de0ee650824fac136a4e132989326433523200 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4f\8c9930f4e1b13dd17091be8a7a92aa1723af22132985482099787134 0
-29D:\Symvol_viry\dist\news.html133000247408270158 0
+29D:\Symvol_viry\dist\news.html133001904299150748 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4d\0541c80eadc85e37b540c80f45f2175de017a7132991758160310285 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4d\0cf2609d6c4edd69e026c5e5d8ab8e2a24db60132986400391503316 0
 144D:\Symvol_viry\node_modules\.cache\gh-pages\https!github.com!VeraKhomenko!Symvol_viry.git\.git\objects\4d\904aab4fb5cf17f0bcbfa1bb391603ff2ceb6d132998657243726027 0
@@ -21963,30 +21967,34 @@
 44D:\Symvol_viry\node_modules\.bin\webpack.ps1132986380354043033 0
 38D:\Symvol_viry\node_modules\.bin\which132986380352831838 0
 42D:\Symvol_viry\node_modules\.bin\which.cmd132986380352831838 0
-36D:\Symvol_viry\dist\fond.8ae4d037.js132998721744692801 0
-40D:\Symvol_viry\dist\fond.8ae4d037.js.map132998721745248238 0
-41D:\Symvol_viry\dist\image_54.fbe09b86.jpg132998721744692801 0
-41D:\Symvol_viry\dist\image_85.0bef55b9.jpg132998721744692801 0
-43D:\Symvol_viry\dist\IMG_1547 1.4b8cfb6c.jpg133000251443764384 0
-43D:\Symvol_viry\dist\IMG_3197_1.b97b1b36.jpg132998721744692801 0
-41D:\Symvol_viry\dist\IMG_4548.33411eb1.jpg132998721744988170 0
-41D:\Symvol_viry\dist\IMG_8050.d31ee6cd.jpg132998721745478266 0
-38D:\Symvol_viry\dist\index.dda6fa14.css133000282309655838 0
-42D:\Symvol_viry\dist\index.dda6fa14.css.map133000282309665833 0
-36D:\Symvol_viry\dist\news.975ef6c8.js133000234665677071 0
-40D:\Symvol_viry\dist\news.975ef6c8.js.map133000234665957128 0
-33D:\Symvol_viry\dist\newsTrip.html133000280611992442 0
-46D:\Symvol_viry\dist\original_hero.356c8728.jpg132998721745518289 0
-42D:\Symvol_viry\dist\projectFiveTwelve.html133000234666397249 0
-61D:\Symvol_viry\dist\projectMilitaryAssistance.ba4f3a9f.js.map132998721744692801 0
-50D:\Symvol_viry\dist\projectMilitaryAssistance.html133000234665797090 0
-40D:\Symvol_viry\dist\projects.55fbbfc6.js132998721744692801 0
-33D:\Symvol_viry\dist\projects.html133000234665797090 0
-38D:\Symvol_viry\dist\report.d4f8e729.js132998721746910274 0
-31D:\Symvol_viry\dist\report.html133000234665837114 0
-44D:\Symvol_viry\dist\symbol-defs.6d5beb00.svg133000234665837114 0
-77D:\Symvol_viry\dist\Symvol_Viry_logo_EN_bw1_without_descriptor_2.0673c22c.png132998721744692801 0
-83D:\Symvol_viry\dist\Symvol_Viry_logo_EN_inversion_without_descriptor_1.266dadbf.png132998721744692801 0
-59D:\Symvol_viry\dist\Symvol_Viry_logo_UA_main_1.932e8bd0.svg132998721744692801 0
-78D:\Symvol_viry\dist\Symvol_Viry_logo_UA_main_without_descriptor_1.082e3ee8.png132998721744692801 0
+40D:\Symvol_viry\dist\contacts.ab05d16e.js133001903562150590 0
+44D:\Symvol_viry\dist\contacts.ab05d16e.js.map133001903562160591 0
+36D:\Symvol_viry\dist\fond.8ae4d037.js133001903419220698 0
+40D:\Symvol_viry\dist\fond.8ae4d037.js.map133001903420210926 0
+41D:\Symvol_viry\dist\image_54.fbe09b86.jpg133001903419200697 0
+41D:\Symvol_viry\dist\image_85.0bef55b9.jpg133001903419200697 0
+43D:\Symvol_viry\dist\IMG_1547 1.4b8cfb6c.jpg133001903420463132 0
+43D:\Symvol_viry\dist\IMG_3197_1.b97b1b36.jpg133001903419370717 0
+41D:\Symvol_viry\dist\IMG_4548.33411eb1.jpg133001903419620855 0
+41D:\Symvol_viry\dist\IMG_8050.d31ee6cd.jpg133001903419940862 0
+38D:\Symvol_viry\dist\index.dda6fa14.css133001903419200697 0
+42D:\Symvol_viry\dist\index.dda6fa14.css.map133001903420210926 0
+40D:\Symvol_viry\dist\newsTrip.383a8e27.js133001904337734681 0
+44D:\Symvol_viry\dist\newsTrip.383a8e27.js.map133001904337754680 0
+33D:\Symvol_viry\dist\newsTrip.html133001904337794689 0
+46D:\Symvol_viry\dist\original_hero.356c8728.jpg133001903419980867 0
+42D:\Symvol_viry\dist\projectFiveTwelve.html133001903420150902 0
+61D:\Symvol_viry\dist\projectMilitaryAssistance.ba4f3a9f.js.map133001903420210926 0
+50D:\Symvol_viry\dist\projectMilitaryAssistance.html133001903420483134 0
+40D:\Symvol_viry\dist\projects.55fbbfc6.js133001903419210708 0
+33D:\Symvol_viry\dist\projects.html133001903420140894 0
+38D:\Symvol_viry\dist\report.d4f8e729.js133001903419210708 0
+31D:\Symvol_viry\dist\report.html133001903420010875 0
+44D:\Symvol_viry\dist\symbol-defs.6d5beb00.svg133001903420050884 0
+43D:\Symvol_viry\dist\Symvol_viry.59712999.js133001904256757228 0
+47D:\Symvol_viry\dist\Symvol_viry.59712999.js.map133001904256777219 0
+77D:\Symvol_viry\dist\Symvol_Viry_logo_EN_bw1_without_descriptor_2.0673c22c.png133001903419200697 0
+83D:\Symvol_viry\dist\Symvol_Viry_logo_EN_inversion_without_descriptor_1.266dadbf.png133001903419200697 0
+59D:\Symvol_viry\dist\Symvol_Viry_logo_UA_main_1.932e8bd0.svg133001903420040869 0
+78D:\Symvol_viry\dist\Symvol_Viry_logo_UA_main_without_descriptor_1.082e3ee8.png133001903419210708 0
 32D:\Symvol_viry\.github\workflows132985872153971384 1
