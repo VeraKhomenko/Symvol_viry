@@ -20,6 +20,9 @@ body {
 .accent-color {
   color: $accent-color;
 }
+.aside-title-color {
+	color: $aside-title-color;
+}
 
 .extreme {
   @include font-header();
@@ -168,6 +171,7 @@ body {
 }
 .two-column {
   @include grid-two-columns();
+  align-items: center;
 }
 .container-banner {
   @include flex-center();
@@ -238,6 +242,7 @@ body {
     margin-top: 65px;
   }
   &__blok {
+	  text-align: justify;
     display: flex;
     flex-direction: column;
     border: 1px solid $thin-line-color;
@@ -307,7 +312,7 @@ body {
       text-align: center;
       background-color: $opposite-text-color;
       // color: $light-text-color;
-      padding-bottom: 45px;
+      // padding-bottom: 45px;
     }
     &__blok .img {
       padding-bottom: 15px;
@@ -334,9 +339,14 @@ body {
       margin: 9px 27px 47px;
       color: $lightest-text-color;
     }
+	 &__footer {
+		text-align: center;
+		padding-bottom: 45px;
+	 }
     &__footer a {
       @include font-size(normal, 800, normal);
       @include adaptiv-font(18, 12);
+		
       color: $title-text-color;
       border-bottom: 2px solid $title-text-color;
     }
@@ -529,3 +539,55 @@ footer.extreme {
 	align-items: center;
 	gap: 2%;
 }
+aside {
+	@include adaptiv-font(18, 12);
+	.section__blok	{
+margin-top: 1em;
+	}
+
+.section-fond__text {
+		padding: 1em;
+	}
+}
+.aside-details {
+	
+	padding: 0 1em 1em;
+}
+.main-wrapper {
+	display: flex;
+	gap: 2%;
+	margin-top: 40px;
+}
+.news-time {
+	padding-top: 25px;
+	
+}
+.news-gallery {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.pagination-nav {
+	display: flex;
+	gap: 3%;
+	margin-top: 100px;
+	margin-bottom: 30px;
+
+    &__link {
+		color: $text-header-color;
+		display: inline-flex;
+		align-items: center;
+		gap: 2%;
+	 }
+	 &__link:hover {
+color: $accent-color;
+	 }
+	 &__item {
+	display: flex;
+    flex: 1 50%;
+    max-width: 50%;
+}
+&__item--previous {
+	text-align: right;
+}
+}
+
