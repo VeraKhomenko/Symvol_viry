@@ -16,6 +16,7 @@ body {
 }
 .button-accent {
   color: $button-accent-color;
+  fill: $button-accent-color;
 }
 .accent-color {
   color: $accent-color;
@@ -586,4 +587,18 @@ aside {
   &__item--previous {
     text-align: right;
   }
+}
+.section-doc__list--contacts {
+	justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 60px;
+	 gap: 5%;
+    display: flex;
+}
+.contacts .section-fond__text {
+	line-height: 2;
+}
+.two-column__contacts {
+	align-items: start;
 }
