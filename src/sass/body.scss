@@ -8,7 +8,7 @@ body {
 .text-uppercase {
   text-transform: uppercase;
 }
-.title-text-color {
+.title-text__color {
   color: $title-text-color;
 }
 .opposite-text-color {
@@ -36,10 +36,20 @@ body {
   border-bottom: 1px solid $thin-line-color;
 }
 .container {
-  position: relative;
-  // @include indent(0 auto 0 auto, $p: 0 15px 0 15px);
   width: 84%;
   margin: 60px auto;
+  position: relative;
+
+  &-nav {
+    position: relative;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    @include breakpoint(mobile-max) {
+      height: 140px;
+    }
+  }
+
   &-top {
     margin: auto;
   }
@@ -59,6 +69,18 @@ body {
   background-size: auto;
   background-position: 0 70%, 10% 70%, 29% 70%;
   background-repeat: no-repeat;
+  @include breakpoint(mobile-max) {
+    margin-top: 1em;
+    background-image: url(../images/Symvol_Viry_logo_UA_main_without_descriptor_1.png),
+      url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png);
+    background-position: 0 70%, 10% 70%;
+  }
+  @include breakpoint(mobile-only) {
+    margin-top: 1em;
+
+    background-image: url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png);
+    background-position: 60% 70%;
+  }
 }
 .section-fond {
   margin-left: 8%;
@@ -75,6 +97,9 @@ body {
   padding-left: 5%;
   padding-bottom: 25%;
   margin-top: 30%;
+  @include breakpoint(mobile-max) {
+    margin-top: 0;
+  }
 }
 .section-comand {
   text-align: left;
@@ -96,6 +121,7 @@ body {
 .section-comand__text {
   @include font-size(3.5px, 400, 1);
   @include adaptiv-font(16, 10);
+  text-align: justify;
 }
 .section__blok .soclinks {
   width: 50%;
@@ -118,20 +144,36 @@ body {
 
 .section-doc__list {
   @include flex();
-  padding-top: 50px;
-  padding-bottom: 70px;
+  gap: 1%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .section-offer {
-  //   @include grid-two-columns();
   justify-items: center;
   align-items: center;
   width: 80%;
   margin-left: auto;
   padding-top: 50px;
   padding-bottom: 100px;
+  @include breakpoint(mobile-max) {
+    width: 60%;
+    padding: 50px 20px 100px 0;
+  }
+  @include breakpoint(mobile-only) {
+    width: 90%;
+  }
+  .container-subtitle {
+    @include breakpoint(mobile-only) {
+      text-align: center;
+    }
+  }
 
   .container-banner__button {
     width: 238px;
+    @include breakpoint(mobile-max) {
+      margin-top: 1em;
+      width: 100%;
+    }
   }
 }
 .offer.section-fond__img {
@@ -145,8 +187,17 @@ body {
 .section-fond__img {
   background-image: url(../images/Symvol_Viry_logo_UA_bw2_without_descriptor_2.png);
   background-size: contain;
-  background-position: left;
+  background-position: left bottom;
   background-repeat: no-repeat;
+  @include breakpoint(mobile-max) {
+    background-position: 0 10em;
+  }
+}
+.section-fond__img--fond {
+  @include breakpoint(mobile-max) {
+    background-size: 100%;
+    background-position: bottom;
+  }
 }
 
 .hero {
@@ -156,7 +207,7 @@ body {
     0%,
     $secondary-background-color 25%
   );
-  padding-bottom: 50px;
+  padding-bottom: 3rem;
 }
 .clipped {
   background-image: url(../images/original_hero.jpg);
@@ -172,11 +223,10 @@ body {
 }
 .two-column {
   @include grid-two-columns();
-  align-items: center;
+  //   align-items: center;
 }
 .container-banner {
   @include flex-center();
-  //   width: 1200px;
   margin: auto;
   &__title {
     @include adaptiv-font(300, 140);
@@ -187,56 +237,43 @@ body {
     line-height: normal;
     margin-top: -0.141em;
     color: white;
-    @media (max-width: 767px) {
-      margin-top: -20px;
+    @include breakpoint(mobile-max) {
+      margin-top: 0.18em;
+      @include adaptiv-font(200, 140);
+    }
+    @include breakpoint(mobile-only) {
+      margin-top: 0.4em;
+      @include adaptiv-font(170, 105);
     }
   }
   &__subtitle {
     @include font-header(normal, 1000, 1);
     @include adaptiv-font(62, 18);
     width: 60%;
-    margin: -60px 30px 20px;
+    margin: -1em auto 1em;
     text-align: center;
   }
   &__text {
+    width: 60%;
     @include font-header(normal, 400, normal);
     @include adaptiv-font(24, 14);
-    //  color: $opposite-text-color;
-    margin-bottom: 30px;
-  }
-  &__buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-  }
-  .container-banner__buttons {
-    width: 40%;
+    margin-bottom: 1em;
+    text-align: center;
   }
 }
 .section {
   position: relative;
   @include font-size(normal, 400, normal);
   @include adaptiv-font(30, 20);
-  //   margin-left: 8%;
-  //   margin-right: 8%;
-  //   color: $title-text-color;
-
   &__list {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    @include breakpoint(mobile-max) {
+      text-align: start;
+    }
   }
-  &__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid $thin-line-color;
-    padding-top: 50px;
-  }
-  &__item:nth-child(n + 5) {
-    border-bottom: 1px solid $thin-line-color;
-    padding-bottom: 50px;
-  }
+
   &__bloklist {
     @include grid-three-columns(20px, 30px);
     text-align: center;
@@ -244,38 +281,44 @@ body {
   }
   &__blok {
     text-align: justify;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     border: 1px solid $thin-line-color;
-    // box-shadow: -28px 30px 30px -24px rgba(0, 0, 0, 0.1);
     &:hover {
       box-shadow: -28px 30px 30px -24px rgba(0, 0, 0, 0.1);
+    }
+    .section__buttons {
+      width: 100%;
+    }
+    .section__buttons--soclinks {
+      width: auto;
     }
   }
   &__part {
     @include flex();
-    //  display: flex;
     flex-direction: column;
-    //  justify-content: space-between;
-    //  align-items: center;
     padding-left: 19px;
     padding-right: 19px;
   }
   &__text {
     @include font-size(normal, 400, normal);
     @include adaptiv-font(18, 12);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 1em;
     text-align: justify;
-    //  color: $light-text-color;
   }
-  //   &__chapter .section__text {
-  //     color: $opposite-text-color;
-  //   }
   &__buttons {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  &__chapter {
+    text-align: justify;
+    @include breakpoint(mobile-max) {
+      width: 80%;
+    }
+    @include breakpoint(mobile-only) {
+      width: auto;
+    }
   }
 
   &__chapter p:last-of-type {
@@ -288,38 +331,37 @@ body {
   }
   &-partner {
     display: flex;
-    gap: 20px;
+    gap: 1em;
+    @include breakpoint(mobile-max) {
+      flex-wrap: wrap;
+    }
     &__carousel {
       border: 1px solid $thin-line-color;
       padding: 2%;
-      margin-right: 30px;
-      // @media (max-width: 767px) {
-      // 	padding: 10px;
-      // }
+      @include breakpoint(mobile-only) {
+        width: 100%;
+      }
+      // margin-right: 30px;
     }
   }
   &-news {
-    //  color: $opposite-text-color;
-
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 94px;
     &__bloks {
       @include grid-three-columns();
+      gap: 1em;
       padding-top: 50px;
     }
 
     &__blok {
       text-align: center;
       background-color: $opposite-text-color;
-      // color: $light-text-color;
-      // padding-bottom: 45px;
     }
     &__blok .img {
       padding-bottom: 15px;
     }
     &__header {
-      // text-align: center;
       @include font-size(normal, 800, normal);
       @include adaptiv-font(20, 14);
       border-bottom: 1px solid $thin-line-color;
@@ -357,33 +399,50 @@ body {
       border-bottom: 2px solid $button-accent-color;
     }
   }
-
+  &__item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $thin-line-color;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  &__item:last-child {
+    @include breakpoint(mobile-max) {
+      border-bottom: 1px solid $thin-line-color;
+      padding-bottom: 2em;
+    }
+  }
+  &__item:nth-child(n + 5) {
+    @include breakpoint(tablet) {
+      border-bottom: 1px solid $thin-line-color;
+      padding-bottom: 2em;
+    }
+  }
   &-question {
     display: flex;
     flex-direction: column;
-    &__item {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: 1px solid $thin-line-color;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      align-items: center;
-    }
-    &__item:hover,
-    &__item:focus-within {
-      color: $button-accent-color;
-      fill: $button-accent-color;
-    }
+    //  &__item {
+    //    display: flex;
+    //    justify-content: space-between;
+    //    border-bottom: 1px solid $thin-line-color;
+    //    padding-top: 50px;
+    //    padding-bottom: 50px;
+    //    align-items: center;
+    //  }
+    //  &__item:hover,
+    //  &__item:focus-within {
+    //    color: $button-accent-color;
+    //    fill: $button-accent-color;
+    //  }
     &__img {
       background-image: url(../images/Symvol_Viry_logo_EN_main_without_descriptor_1.png);
       background-size: contain;
       background-position: 100% 100%;
       background-repeat: no-repeat;
-      // text-align: center;
     }
   }
   &-social {
-    // color: #ffffff;
     padding-bottom: 34px;
   }
   &-social .container-subtitle {
@@ -393,6 +452,22 @@ body {
   &-social .link {
     margin-left: 10%;
     padding-top: 30px;
+  }
+}
+.container-fond .section__chapter:last-child {
+  @include breakpoint(mobile-max) {
+    width: 60%;
+    margin-left: auto;
+  }
+  @include breakpoint(mobile-only) {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+.invisible {
+  @include breakpoint(mobile-max) {
+    display: none;
   }
 }
 
@@ -417,6 +492,7 @@ body {
   text-align: left;
   padding-top: 50px;
 }
+
 .accent {
   @include font-size(normal, 800, normal);
   @include adaptiv-font(40, 24);
@@ -425,7 +501,6 @@ body {
   background: $rectangle-background-color;
   height: 20px;
   width: 90%;
-  //   padding-left: 20%;
   z-index: -2;
 }
 .link {
@@ -479,9 +554,6 @@ footer.extreme {
 }
 .project-five.section__gallery {
   padding-top: 14%;
-}
-.progress-title {
-  display: none;
 }
 
 .progress-fundraising {
@@ -589,16 +661,16 @@ aside {
   }
 }
 .section-doc__list--contacts {
-	justify-content: flex-start;
-    align-items: flex-start;
-    padding-top: 50px;
-    padding-bottom: 60px;
-	 gap: 5%;
-    display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  gap: 5%;
+  display: flex;
 }
 .contacts .section-fond__text {
-	line-height: 2;
+  line-height: 2;
 }
 .two-column__contacts {
-	align-items: start;
+  align-items: start;
 }

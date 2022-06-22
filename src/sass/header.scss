@@ -1,25 +1,51 @@
 .container .flexnav {
-  //   @include flex();
-  // width: 84%;
   height: 140px;
-  //   gap: 2%;
   display: grid;
-  grid-template-columns: 1fr 4fr 1.5fr 1fr 0.2fr;
+  grid-template-columns: 4fr 1.5fr 1fr 0.2fr;
   grid-column-gap: 2em;
   align-items: center;
-  //   padding-left: 8%;
-  //   padding-right: 8%;
 }
 .logo__symvolviry {
+  font-size: 12px;
   width: 12em;
 }
-.main-menu {
-  @include flex();
-  // display: grid;
-  //   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 1em;
-  //   word-wrap: nowrap;
+.menu-nav {
+  height: 140px;
+  display: grid;
+  font-size: 13px;
+  grid-template-columns: 4fr 1.5fr 1fr 0.2fr;
+  grid-column-gap: 2em;
   align-items: center;
+  @include breakpoint(mobile-max) {
+    position: absolute;
+    display: none;
+    width: 70%;
+    height: auto;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-top: 1px solid #ececec;
+    background-color: #fff;
+    z-index: 1;
+
+    &.is-open {
+      display: block;
+    }
+  }
+  .text-uppercase {
+    margin-bottom: 1rem;
+  }
+}
+.main-menu {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  @include breakpoint(mobile-max) {
+    display: inline;
+  }
 
   &__focused {
     color: $text-header-color;
@@ -58,8 +84,14 @@
   grid-column-gap: 1.5em;
   grid-row-gap: 2em;
   text-align: center;
+  @include breakpoint(mobile-max) {
+    width: auto;
+  }
 }
 
+// footer .soclinks {
+// 	display: flex;
+// }
 .soclink__icon:hover,
 .soclink__icon:focus {
   fill: $accent-color;

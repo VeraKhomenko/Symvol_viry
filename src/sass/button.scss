@@ -3,43 +3,70 @@
   background-color: $button-color;
   border: 1px solid $button-accent-color;
 }
-.button-accent-color {
+.button-accent__color {
   color: $opposite-text-color;
   background-color: $button-accent-color;
   border: 1px solid $button-accent-color;
 }
 button {
   @include font-header(0.03em, 800, normal);
-  @include adaptiv-font(20, 10);
-}
-.extreme__button {
-  max-width: 200px;
+  @include adaptiv-font(20, 12);
   height: 60px;
+  @include breakpoint(mobile-max) {
+    margin-bottom: 1rem;
+    height: 40px;
+  }
+}
+.extreme-button {
+  max-width: 200px;
 }
 .container-banner__button {
   width: 50%;
-  height: 60px;
+  @include breakpoint(mobile-only) {
+    width: 100%;
+  }
 }
-.button-accent-color:hover,
-.button-accent-color:focus {
+.container-banner__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  @include breakpoint(mobile-max) {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container-banner .container-banner__buttons {
+  width: 40%;
+  @include breakpoint(mobile-max) {
+    width: 60%;
+  }
+}
+.contacts .container-banner__buttons {
+  padding-top: 1.5em;
+}
+.button-accent__color:hover,
+.button-accent__color:focus {
   color: $button-accent-color;
   background-color: $button-color;
   border: 1px solid $button-accent-color;
 }
 
-.extreme__button:hover,
-.extreme__button:focus {
+.extreme-button:hover,
+.extreme-button:focus {
   color: $opposite-text-color;
   background-color: $button-accent-color;
   transition-duration: 1s;
 }
 .section__button {
   @include adaptiv-font(18, 12);
-  width: 48%;
-  height: 60px;
+  width: 45%;
+  //   height: 60px;
 }
 
 .section__link {
+  width: 45%;
   @include adaptiv-font(18, 12);
   border: $button-color;
   padding-bottom: 2px;
@@ -61,30 +88,101 @@ button {
   background-color: $button-color;
   border: none;
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
 }
-.cheveron__icon:hover,
-.cheveron__icon:focus {
+.leng .cheveron__button {
+  @include breakpoint(mobile-max) {
+    margin: 1em auto;
+  }
+}
+.cheveron-icon:hover,
+.cheveron-icon:focus {
   fill: $accent-color;
   transition-duration: 1s;
 }
 
-.cheveron__buttonright {
+.cheveron {
   display: flex;
-  //   width: auto;
+  align-items: center;
   background-color: $button-color;
   border: none;
+  margin-bottom: 0;
 }
-button.title-text-color:hover {
+button.title-text__color:hover {
   color: $button-accent-color;
   fill: $button-accent-color;
 }
-// .cheveron__buttonright :hover {
+// .cheveron :hover {
 //   color: $button-accent-color;
 
 // }
 .modal__button {
   max-width: 309px;
-  height: 60px;
+  //   height: 60px;
   margin-top: 40px;
+}
+.burger-button {
+  position: absolute;
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  right: 15px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  fill: $accent-color;
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
+
+  &.is-open .icon-cross {
+    display: block;
+  }
+
+  &.is-open .icon-burger {
+    display: none;
+  }
+
+  &:focus .icon-cross,
+  &:focus .icon-burger {
+    fill: $button-accent-color;
+  }
+
+  &:hover .icon-cross,
+  &:hover .icon-burger {
+    fill: $button-accent-color;
+  }
+
+  &:focus,
+  &:hover {
+    outline-color: transparent;
+  }
+}
+
+.icon-cross {
+  display: none;
+}
+
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  &__icon-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: $opposite-text-color;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: currentColor;
+  }
+
+  &__icon-close:hover,
+  &__icon-close:focus {
+    color: $accent-color;
+    outline: 1px rgba(0, 0, 0, 0.1);
+  }
 }

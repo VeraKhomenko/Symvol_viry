@@ -19,18 +19,33 @@
   </head>
   <body>
     <header class="extreme">
-      <div class="container container-top">
-        <nav class="flexnav">
-          <p>
-            <!-- src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg" -->
-            <a href="./index.html"
-              ><img
-                src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg"
-                alt="photo"
-                width="139"
-                class="logo__symvolviry"
-            /></a>
-          </p>
+      <div class="container container-nav container-top">
+        <a href="./index.html"
+          ><img
+            src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg"
+            alt="photo"
+            width="139"
+            class="logo__symvolviry"
+        /></a>
+        <button
+          type="button"
+          class="burger-button"
+          aria-expanded="false"
+          aria-controls="header__menu"
+          data-menu-button
+        >
+          <svg width="40" height="40" aria-label="Переключатель мобилного меню">
+            <use
+              class="icon-burger"
+              href="./images/svg/symbols/symbol-defs.svg#icon-menu"
+            ></use>
+            <use
+              class="icon-cross"
+              href="./images/svg/symbols/symbol-defs.svg#icon-cross"
+            ></use>
+          </svg>
+        </button>
+        <nav class="menu-nav" id="header__menu" data-menu>
           <ul class="main-menu">
             <li class="text-uppercase">
               <a href="./fond.html" class="main-menu__focused">Про фонд</a>
@@ -41,7 +56,9 @@
               >
             </li>
             <li class="text-uppercase">
-              <a href="#" class="main-menu__focused main-menu__focused--current"
+              <a
+                href="./report.html"
+                class="main-menu__focused main-menu__focused--current"
                 >Звітність</a
               >
             </li>
@@ -52,89 +69,105 @@
               <a href="./contacts.html" class="main-menu__focused">Контакти</a>
             </li>
           </ul>
-          <button type="button" class="extreme__button button-color">
+          <button
+            type="button"
+            class="extreme-button button-color"
+            data-modal-open
+          >
             Допомогти
           </button>
           <ul class="soclinks">
             <li class="soclink__links">
-              <!-- soclink__links без стиля  -->
-              <a
-                class="soclink__icon"
-                href="https://www.facebook.com/"
-                aria-label="Facebook"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href=" https://www.instagram.com/"
-                aria-label="Instagram"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.linkedin.com/"
-                aria-label="Linkedin"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://twitter.com/"
-                aria-label="Twitter"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-twitter"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.facebook.com/"
+                  aria-label="Facebook"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
 
             <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.viber.com"
-                aria-label="viber"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-viber"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href=" https://www.instagram.com/"
+                  aria-label="Instagram"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
             <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.telegram.com/"
-                aria-label="telegram"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-telegram"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.linkedin.com/"
+                  aria-label="Linkedin"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://twitter.com/"
+                  aria-label="Twitter"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.viber.com"
+                  aria-label="viber"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-viber"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.telegram.com/"
+                  aria-label="telegram"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-telegram"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
           </ul>
           <div class="leng">
@@ -143,7 +176,7 @@
               class="cheveron__button text-bold text-uppercase"
             >
               ua
-              <svg class="cheveron__icon" height="25" width="25">
+              <svg class="cheveron-icon" height="25" width="25">
                 <use
                   href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-down"
                 ></use>
@@ -153,22 +186,20 @@
         </nav>
       </div>
     </header>
-    <main class="main-content">
+    <main>
       <section class="container">
-        <div class="section title-text-color">
+        <div class="section title-text__color">
           <h2 class="container-subtitle text-uppercase report-title">
             Звітність
           </h2>
           <div class="section-question">
             <details open>
-              <summary class="report section-question__item">
-                Червень 2022 року
-              </summary>
+              <summary class="section__item">Червень 2022 року</summary>
               <h4 class="report-subtitle">01.06.2022 року</h4>
               <h5>
                 Доставка гуманітарної допомоги до с. Прилучник, Сумська область.
               </h5>
-              <div class="report-gallery">
+              <div class="report-gallery invisible">
                 <img
                   src="./images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="military personnel"
@@ -206,7 +237,7 @@
               <h4 class="report-subtitle">Документація</h4>
               <ul class="two-column">
                 <li class="report-item">
-                  <svg class="cheveron__icon" height="60" width="60">
+                  <svg class="cheveron-icon" height="60" width="60">
                     <use
                       href="../src/images/svg/symbols/symbol-defs.svg#icon-file-pdf"
                     ></use>
@@ -217,7 +248,7 @@
                 </li>
 
                 <li class="report-item">
-                  <svg class="cheveron__icon" height="60" width="60">
+                  <svg class="cheveron-icon" height="60" width="60">
                     <use
                       href="../src/images/svg/symbols/symbol-defs.svg#icon-file-pdf"
                     ></use>
@@ -227,7 +258,7 @@
                   </p>
                 </li>
                 <li class="report-item">
-                  <svg class="cheveron__icon" height="60" width="60">
+                  <svg class="cheveron-icon" height="60" width="60">
                     <use
                       href="../src/images/svg/symbols/symbol-defs.svg#icon-drawer"
                     ></use>
@@ -237,7 +268,7 @@
                   </p>
                 </li>
                 <li class="report-item">
-                  <svg class="cheveron__icon" height="60" width="60">
+                  <svg class="cheveron-icon" height="60" width="60">
                     <use
                       href="../src/images/svg/symbols/symbol-defs.svg#icon-file-word"
                     ></use>
@@ -249,20 +280,16 @@
               </ul>
             </details>
             <details>
-              <summary class="report section-question__item">
-                Липень 2022 року
-              </summary>
+              <summary class="section__item">Липень 2022 року</summary>
             </details>
             <details>
-              <summary class="report section-question__item">
-                Листопад 2022 року
-              </summary>
+              <summary class="section__item">Листопад 2022 року</summary>
             </details>
           </div>
         </div>
       </section>
       <section id="contact" class="container">
-        <div class="title-text-color">
+        <div class="title-text__color">
           <h2 class="container-subtitle text-uppercase">
             МИ В СОЦІАЛЬНИХ МЕРЕЖАХ
           </h2>
@@ -315,7 +342,7 @@
           </ul>
           <div class="link">
             <h6 class="link-text">Більше</h6>
-            <button type="button" class="cheveron__buttonright">
+            <button type="button" class="cheveron">
               <svg height="25" width="25">
                 <use
                   href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-right"
@@ -327,17 +354,16 @@
       </section>
     </main>
     <footer class="extreme">
-      <div class="container">
-        <nav class="flexnav">
-          <p>
-            <a href="./index.html"
-              ><img
-                src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg"
-                alt="photo"
-                width="139"
-                class="logo__symvolviry"
-            /></a>
-          </p>
+      <div class="container container-nav">
+        <a href="./index.html"
+          ><img
+            src="../src/images/svg/logo/Symvol_Viry_logo_UA_main_1.svg"
+            alt="photo"
+            width="139"
+            class="logo__symvolviry"
+        /></a>
+
+        <nav class="menu-nav" id="header__menu">
           <ul class="main-menu">
             <li class="text-uppercase">
               <a href="./fond.html" class="main-menu__focused">Про фонд</a>
@@ -348,7 +374,9 @@
               >
             </li>
             <li class="text-uppercase">
-              <a href="#" class="main-menu__focused main-menu__focused--current"
+              <a
+                href="./report.html"
+                class="main-menu__focused main-menu__focused--current"
                 >Звітність</a
               >
             </li>
@@ -359,92 +387,123 @@
               <a href="./contacts.html" class="main-menu__focused">Контакти</a>
             </li>
           </ul>
-          <button type="button" class="extreme__button button-color">
+          <button
+            type="button"
+            class="extreme-button button-color"
+            data-modal-open
+          >
             Допомогти
           </button>
           <ul class="soclinks">
             <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.facebook.com/"
-                aria-label="Facebook"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href=" https://www.instagram.com/"
-                aria-label="Instagram"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.linkedin.com/"
-                aria-label="Linkedin"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
-                  ></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://twitter.com/"
-                aria-label="Twitter"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-twitter"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.facebook.com/"
+                  aria-label="Facebook"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
 
             <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.viber.com"
-                aria-label="viber"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-viber"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href=" https://www.instagram.com/"
+                  aria-label="Instagram"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
             <li class="soclink__links">
-              <a
-                class="soclink__icon"
-                href="https://www.telegram.com/"
-                aria-label="telegram"
-              >
-                <svg height="23" width="23">
-                  <use
-                    href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-telegram"
-                  ></use>
-                </svg>
-              </a>
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.linkedin.com/"
+                  aria-label="Linkedin"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://twitter.com/"
+                  aria-label="Twitter"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.viber.com"
+                  aria-label="viber"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-viber"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
+            </li>
+            <li class="soclink__links">
+              <p>
+                <a
+                  class="soclink__icon"
+                  href="https://www.telegram.com/"
+                  aria-label="telegram"
+                >
+                  <svg height="23" width="23">
+                    <use
+                      href="../src/images/svg/sociallogo/symbol-sociallogo.svg#icon-telegram"
+                    ></use>
+                  </svg>
+                </a>
+              </p>
             </li>
           </ul>
+          <div class="leng">
+            <button
+              type="button"
+              class="cheveron__button text-bold text-uppercase"
+            >
+              ua
+              <svg class="cheveron-icon" height="25" width="25">
+                <use
+                  href="../src/images/svg/symbols/symbol-defs.svg#icon-cheveron-down"
+                ></use>
+              </svg>
+            </button>
+          </div>
         </nav>
       </div>
     </footer>
+    <script src="./js/burger.js"></script>
   </body>
 </html>
