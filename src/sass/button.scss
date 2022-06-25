@@ -186,3 +186,70 @@ button.title-text__color:hover {
     outline: 1px rgba(0, 0, 0, 0.1);
   }
 }
+.button-pagination {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+}
+.button-pagination label {
+	height: 15px;
+	width: 15px;
+	background-color: $button-accent-color;
+	margin: 0 4px;
+	border-radius: 20px;
+	transition: all 0.5s ease;
+}
+.button-pagination label.active  {
+width: 35px;
+}
+
+.three, .four, .socthree, .socfour {
+	@include breakpoint (desktop) {
+		display: none;
+	}
+}
+.four, .socfour {
+	@include breakpoint (tablet-only) {
+		display: none;
+	}
+}
+
+#one:checked ~ .button-pagination label.one,
+#two:checked ~ .button-pagination label.two,
+#three:checked ~ .button-pagination label.three,
+#four:checked ~ .button-pagination label.four,
+#socone:checked ~ .button-pagination label.socone,
+#soctwo:checked ~ .button-pagination label.soctwo,
+#socthree:checked ~ .button-pagination label.socthree,
+#socfour:checked ~ .button-pagination label.socfour {
+	width: 35px;
+}
+
+#one:checked ~ .button-pagination label.two, 
+#one:checked ~ .button-pagination label.three,
+#one:checked ~ .button-pagination  label.four,
+#two:checked ~ .button-pagination label.one, 
+#two:checked ~ .button-pagination label.three,
+#two:checked ~ .button-pagination  label.four,
+#three:checked ~ .button-pagination label.two, 
+#three:checked ~ .button-pagination label.one,
+#three:checked ~ .button-pagination  label.four,
+#four:checked ~ .button-pagination label.one, 
+#four:checked ~ .button-pagination label.three,
+#four:checked ~ .button-pagination  label.two {
+	width: 15px;
+}
+#socone:checked ~ .button-pagination label.two, 
+#socone:checked ~ .button-pagination label.three,
+#socone:checked ~ .button-pagination  label.socfour,
+#soctwo:checked ~ .button-pagination label.socone, 
+#soctwo:checked ~ .button-pagination label.three,
+#soctwo:checked ~ .button-pagination  label.socfour,
+#socthree:checked ~ .button-pagination label.soctwo, 
+#socthree:checked ~ .button-pagination label.socone,
+#socthree:checked ~ .button-pagination  label.socfour,
+#socfour:checked ~ .button-pagination label.socone, 
+#socfour:checked ~ .button-pagination label.socthree,
+#socfour:checked ~ .button-pagination  label.soctwo {
+	width: 15px;
+}

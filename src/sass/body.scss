@@ -24,7 +24,11 @@ body {
 .aside-title-color {
   color: $aside-title-color;
 }
-
+.invisible {
+	@include breakpoint(mobile-max) {
+	  display: none;
+	}
+ }
 .extreme {
   @include font-header();
   @include adaptiv-font(13, 4);
@@ -40,13 +44,16 @@ body {
   margin: 60px auto;
   position: relative;
 
+
   &-nav {
     position: relative;
     display: flex;
+	 justify-content: space-evenly;
     gap: 3%;
     align-items: center;
     @include breakpoint(mobile-max) {
       height: 140px;
+		justify-content: space-between;
     }
   }
 
@@ -225,6 +232,56 @@ body {
   @include grid-two-columns();
   //   align-items: center;
 }
+.swiper {
+	width: 100%;
+	height: 100%;
+
+ }
+
+ .slider .swiper {
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+ }
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px;	
+        font-size: 18px;
+
+}
+
+.swiper-slide img {
+   display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+ }
+.section-carousel {
+	position: relative;
+	display: flex;
+	align-items: center;
+
+	// height: 150px;
+	width: 90%;
+}
+.swiper-pagination,
+.swiper-button-next,
+.swiper-button-prev {
+	color: $accent-color;
+   text-shadow: 0 0 0.65px #058ed0, 0 0 0.65px #058ed0;
+  }
+  .swiper-pagination:hover,
+  .swiper-button-next:hover,
+	.swiper-button-prev:hover {
+color: $button-accent-color;
+text-shadow: 0 0 0.65px #f59907, 0 0 0.65px #f59907;
+	}
+
+
 .container-banner {
   @include flex-center();
   margin: auto;
@@ -265,6 +322,7 @@ body {
   position: relative;
   @include font-size(normal, 400, normal);
   @include adaptiv-font(30, 20);
+  overflow: hidden;
   &__list {
     text-align: center;
     padding-top: 2em;
@@ -278,6 +336,11 @@ body {
     @include grid-three-columns(20px, 30px);
     text-align: center;
     margin-top: 65px;
+	 &--projects {
+		@include breakpoint (tablet-max) {
+			@include grid-two-columns();
+		}
+	 }
   }
   &__blok {
     text-align: justify;
@@ -330,19 +393,61 @@ body {
     padding-top: 70px;
   }
   &-partner {
-    display: flex;
-    gap: 1em;
-    @include breakpoint(mobile-max) {
-      flex-wrap: wrap;
-    }
+   // position: relative;
+	// margin: 1em 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	@include breakpoint (mobile-max) {
+		width: calc(100% / 3 - 0.5em);
+	}
+	// @include breakpoint (mobile-only) {
+	// 	flex-wrap: wrap;
+	// 	width: calc(100% / 2 - 0.5em);
+	// }
+	
+   //  @include breakpoint(mobile-max) {
+   //    flex-wrap: wrap;
+   //  }
+
     &__carousel {
       border: 1px solid $thin-line-color;
-      padding: 2%;
-      @include breakpoint(mobile-only) {
-        width: 100%;
+      padding: 1%;
+		width: calc(100% / 4 - 10px);
+		max-height: 80px;
+		transition: all 0.4s ease;
+	
+      @include breakpoint(mobile-max) {
+			width: 100%;
+			// margin: 20px 0 10px 0;
+			margin: 0 30px 30px 0;
       }
-      // margin-right: 30px;
+
+		.img.img-cards {
+			width: 200px;
+			height: 100%;
+		  }
+      margin-right: 30px;
     }
+	 &__carousel:hover {
+		transform: translateY(-15px);
+	}
+	&__carousel--soc {
+		width: calc(100% / 3 - 10px);
+		padding: 1%;
+		transition: all 0.4s ease;
+			@include breakpoint(mobile-max) {
+		width: calc(100% / 2 - 1em);
+		// margin: 20px 0 10px 0;
+		margin: 0 30px 30px 0;
+	}
+	@include breakpoint(mobile-only) {
+		width: 100%;
+	
+	}
+	}
+
   }
   &-news {
     margin-left: 10%;
@@ -444,6 +549,7 @@ body {
   }
   &-social {
     padding-bottom: 34px;
+	 overflow: hidden;
   }
   &-social .container-subtitle {
     margin-left: 10%;
@@ -465,11 +571,7 @@ body {
   }
 }
 
-.invisible {
-  @include breakpoint(mobile-max) {
-    display: none;
-  }
-}
+
 
 .box1 {
   display: flex;
@@ -600,8 +702,12 @@ footer.extreme {
 .report-gallery {
   padding-top: 30px;
   padding-bottom: 30px;
+  gap: 1%;
   display: flex;
   justify-content: space-between;
+  @include breakpoint(mobile-max) {
+	display: none;
+ }
 }
 .report-title {
   padding-bottom: 50px;
@@ -625,14 +731,16 @@ aside {
   padding: 0 1em 1em;
 }
 .main-wrapper {
-  display: flex;
-  gap: 2%;
-  margin-top: 40px;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 2%;
 }
 .news-time {
   padding-top: 25px;
 }
 .news-gallery {
+	grid-row-gap: 1em;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -673,4 +781,33 @@ aside {
 }
 .two-column__contacts {
   align-items: start;
+}
+.two-column__list {
+	grid-row-gap: 1em;
+	margin-bottom: 2em;
+}
+.main-card, .socmain-card {
+	width: 200%; 
+	display: flex;
+	transition: all 1s ease;
+	// justify-content: space-evenly;
+}
+#two:checked ~ .main-card {
+	margin-left: -110%;
+}
+#three:checked ~ .main-card {
+	margin-left: -210%;
+}
+#four:checked ~ .main-card {
+	margin-left: -320%;
+}
+
+#soctwo:checked ~ .socmain-card {
+	margin-left: -110%;
+}
+#socthree:checked ~ .socmain-card {
+	margin-left: -210%;
+}
+#socfour:checked ~ .socmain-card {
+	margin-left: -320%;
 }
