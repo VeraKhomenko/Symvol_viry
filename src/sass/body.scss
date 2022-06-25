@@ -400,7 +400,8 @@ text-shadow: 0 0 0.65px #f59907, 0 0 0.65px #f59907;
 	justify-content: space-between;
 	margin: 20px 0;
 	@include breakpoint (mobile-max) {
-		width: calc(100% / 3 - 0.5em);
+				width: 100%;
+		gap: 10px;
 	}
 	
 	} 
@@ -563,12 +564,12 @@ text-shadow: 0 0 0.65px #f59907, 0 0 0.65px #f59907;
     padding-top: 30px;
   }
 }
-.section-partner.section-partner__soc{
-	@include breakpoint (mobile-max) {
-		width: 100%;
-		gap: 10px;
-	}
-}
+// .section-partner.section-partner__soc{
+// 	@include breakpoint (mobile-max) {
+// 		width: 100%;
+// 		gap: 10px;
+// 	}
+// }
 .container-fond .section__chapter:last-child {
   @include breakpoint(mobile-max) {
     width: 60%;
