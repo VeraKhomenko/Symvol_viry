@@ -6,15 +6,15 @@
   align-items: center;
 }
 .logo__symvolviry {
-	@include adaptiv-font(13, 8);
+  @include adaptiv-font(13, 8);
   width: 12em;
   @include breakpoint(mobile-max) {
-	font-size: 12px;
+    font-size: 12px;
   }
 }
 .menu-nav {
-	@include adaptiv-font(13, 8);
-	grid-auto-rows: 140px;
+  @include adaptiv-font(13, 8);
+  grid-auto-rows: 140px;
   display: grid;
   grid-template-columns: 4fr 1.5fr 1fr 0.2fr;
   grid-column-gap: 2em;
@@ -27,7 +27,7 @@
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-	 font-size: 13px;
+    font-size: 13px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
@@ -69,9 +69,17 @@
     height: 1px;
     background: $accent-color;
     border-radius: 2px;
-    top: 20px;
+    @include breakpoint(mobile-max) {
+      top: 20px;
+    }
+    @include breakpoint(tablet) {
+      top: 40px;
+    }
+    @include breakpoint(desktop) {
+      top: 30px;
+    }
   }
-  
+
   &__focused--current,
   &__focused:hover,
   &__focused:focus {
@@ -83,7 +91,7 @@
 }
 
 .soclinks {
-@include adaptiv-font(12, 8);
+  @include adaptiv-font(12, 8);
   width: 20%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -91,7 +99,7 @@
   grid-row-gap: 2em;
   text-align: center;
   @include breakpoint(mobile-max) {
-	font-size: 12;
+    font-size: 12;
     width: auto;
   }
 }
@@ -118,6 +126,6 @@
 .leng {
   text-align: center;
 }
-input[type="radio" i].invisible {
-	display: none;
+input[type='radio' i].invisible {
+  display: none;
 }

@@ -31,8 +31,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: $column-gap;
   grid-row-gap: $row-gap;
-  @include breakpoint(mobile-max){
-	grid-template-columns: 1fr 1fr;
+  @include breakpoint(mobile-max) {
+    grid-template-columns: 1fr 1fr;
   }
   @include breakpoint(mobile-only) {
     grid-template-columns: 1fr;

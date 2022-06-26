@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Звітність</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+
     <link rel="stylesheet" href="./sass/styles.scss" />
     <!-- <script type="module" src="./index.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -297,14 +294,18 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="container slider">
-        <div class="title-text__color">
+      <section id="contact" class="container">
+        <div class="section-social title-text-color">
           <h2 class="container-subtitle text-uppercase">
             МИ В СОЦІАЛЬНИХ МЕРЕЖАХ
           </h2>
-          <div class="swiper mySwiper">
-            <ul class="section-partner swiper-wrapper">
-              <li class="swiper-slide">
+          <input type="radio" name="dot" id="socone" class="invisible" />
+          <input type="radio" name="dot" id="soctwo" class="invisible" />
+          <!-- <input type="radio" name="dot" id="socthree" class="invisible" />
+			  <input type="radio" name="dot" id="socfour" class="invisible" /> -->
+          <div class="socmain-card">
+            <ul class="section-partner section-partner__soc">
+              <li class="section-partner__carousel--soc">
                 <img
                   src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="photo"
@@ -313,7 +314,7 @@
                   class="img"
                 />
               </li>
-              <li class="swiper-slide">
+              <li class="section-partner__carousel--soc">
                 <img
                   src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="photo"
@@ -322,7 +323,7 @@
                   class="img"
                 />
               </li>
-              <li class="swiper-slide">
+              <li class="section-partner__carousel--soc">
                 <img
                   src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="photo"
@@ -331,7 +332,7 @@
                   class="img"
                 />
               </li>
-              <li class="swiper-slide">
+              <li class="section-partner__carousel--soc">
                 <img
                   src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="photo"
@@ -340,7 +341,7 @@
                   class="img"
                 />
               </li>
-              <li class="swiper-slide">
+              <li class="section-partner__carousel--soc">
                 <img
                   src="../src/images/83BE714A-9EB5-4EF2-85EF-B605EDF95FBB_1.jpg"
                   alt="photo"
@@ -350,9 +351,12 @@
                 />
               </li>
             </ul>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+          </div>
+          <div class="button-pagination">
+            <label for="socone" class="socone active"></label>
+            <label for="soctwo" class="soctwo"></label>
+            <!-- <label for="socthree" class="socthree"></label>
+				 <label for="socfour" class="socfour"></label> -->
           </div>
           <div class="link">
             <h6 class="link-text">Більше</h6>
