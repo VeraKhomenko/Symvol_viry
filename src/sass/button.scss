@@ -118,9 +118,12 @@ button.title-text__color:hover {
 
 // }
 .modal__button {
-  max-width: 309px;
+  width: 52%;
   //   height: 60px;
   margin-top: 40px;
+  @include breakpoint(mobile-only) {
+    width: 82%;
+  }
 }
 .burger-button {
   position: absolute;

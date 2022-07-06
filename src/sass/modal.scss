@@ -16,22 +16,37 @@
 }
 
 .modal {
-  width: 1175px;
+  width: 70%;
   margin: 50px auto;
   position: relative;
-  padding: 40px;
+  padding: 2em;
   background-color: $primary-background-color;
   // box-shadow: $shadow-modal;
   border-radius: 4px;
+
   &-subtitle {
-    @include adaptiv-font(30, 20);
+    @include adaptiv-font(30, 18);
     padding-top: 18px;
     padding-bottom: 7px;
   }
   &-list {
     display: flex;
     @include adaptiv-font(58, 30);
-    padding-left: 2rem;
+    padding-left: 0.4em;
+
+    .container-banner__text {
+      width: 100%;
+      text-align: start;
+
+      @include breakpoint(mobile-only) {
+        @include adaptiv-font(30, 10);
+      }
+    }
+    .section__text {
+      padding: 0%;
+      width: 65%;
+      text-align: start;
+    }
   }
   &-list:nth-child(1) {
     border-bottom: 1px solid $thin-line-color;
@@ -81,8 +96,8 @@
     transform: scale(1.1);
   }
   .container-subtitle {
-    padding-left: 120px;
-    margin-bottom: 60px;
+    margin-bottom: 1rem;
+    padding-left: 1.2em;
   }
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(0);
@@ -135,10 +150,13 @@ fieldset {
     margin-bottom: 20px;
   }
   &__label {
-    @include adaptiv-font(12, 6);
-    width: 300px;
+    @include adaptiv-font(12, 10);
+    width: 50%;
     height: 30px;
     margin-bottom: 4px;
+    @include breakpoint(mobile-only) {
+      width: 80%;
+    }
   }
   &__label::placeholder {
     padding-left: 8px;
