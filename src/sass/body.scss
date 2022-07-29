@@ -33,7 +33,7 @@ body {
 .extreme {
   @include font-header();
   @include adaptiv-font(13, 4);
-  max-width: auto;
+
   height: 140px;
   padding: 0;
   margin: auto;
@@ -51,12 +51,11 @@ body {
   &-nav {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3%;
     align-items: center;
     @include breakpoint(mobile-max) {
       height: 140px;
-      justify-content: space-between;
     }
   }
 
@@ -76,12 +75,18 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   @include breakpoint(mobile-max) {
-    margin-top: 1em;
+    // margin-top: 1em;
     background-image: url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png);
     background-position: 0 70%;
+    // background-size: 50%;
   }
+  @include breakpoint(mobile-only) {
+    background-position: 70% 70%;
+    background-size: 90%;
+  }
+
   @include breakpoint(tablet) {
-    margin-top: 1em;
+    // margin-top: 1em;
     background-image: url(../images/Symvol_Viry_logo_UA_main_without_descriptor_1.png),
       url(../images/Symvol_Viry_logo_EN_inversion_without_descriptor_1.png);
     background-position: 0 70%, 10% 70%;
@@ -233,7 +238,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
-
+  background-clip: text;
   /* -webkit-background-clip обрезает фон элемента по контуру текста */
   -webkit-text-fill-color: transparent; /* переопределяет цвет текста с белого на прозрачный в браузерах на webkit */
   -webkit-background-clip: text;
@@ -295,7 +300,7 @@ body {
     width: 60%;
     @include font-header(normal, 400, normal);
     @include adaptiv-font(24, 14);
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     text-align: center;
   }
 }
