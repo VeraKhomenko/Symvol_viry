@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn1:document.querySelector("[military-modal-open-1]"),openModalBtn2:document.querySelector("[military-modal-open-2]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn1.addEventListener("click",o),e.openModalBtn2.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();
+//# sourceMappingURL=projectMilitaryAssistance.8bd507c7.js.map
